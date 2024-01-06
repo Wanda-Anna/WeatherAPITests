@@ -1,0 +1,1574 @@
+04-01-2024 03:39:10.361 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+04-01-2024 03:39:10.586 [Gauge] [INFO] Initializing specs cache with 1 specs
+04-01-2024 03:39:10.586 [Gauge] [DEBUG] Adding specs from /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/example.spec
+04-01-2024 03:39:10.586 [Gauge] [INFO] Initializing steps cache with 1 steps
+04-01-2024 03:39:10.642 [Gauge] [DEBUG] Watching directory: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs
+04-01-2024 03:39:10.642 [Gauge] [DEBUG] Found 1 files
+04-01-2024 03:39:10.669 [Gauge] [INFO] Starting language runner
+04-01-2024 03:39:25.262 [dotnet] [INFO] MSBuild version 17.3.2+561848881 for .NET
+04-01-2024 03:39:32.074 [dotnet] [INFO] /usr/share/dotnet/sdk/6.0.415/Sdks/Microsoft.NET.Sdk/targets/Microsoft.NET.TargetFrameworkInference.targets(144,5): error NETSDK1045: The current .NET SDK does not support targeting .NET 7.0.  Either target .NET 6.0 or lower, or use a version of the .NET SDK that supports .NET 7.0. [/home/wandaanna/Downloads/Dockerising/WeatherAPITests/netcore-template.csproj]
+04-01-2024 03:39:34.322 [dotnet] [ERROR] Unhandled exception.
+04-01-2024 03:39:34.470 [dotnet] [ERROR] System.IO.DirectoryNotFoundException: Could not find a part of the path '/home/wandaanna/Downloads/Dockerising/WeatherAPITests/gauge_bin'.
+04-01-2024 03:39:34.470 [dotnet] [ERROR] at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+04-01-2024 03:39:34.470 [dotnet] [ERROR] at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+04-01-2024 03:39:34.470 [dotnet] [ERROR] at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, Boolean isNormalized, EnumerationOptions options)
+04-01-2024 03:39:34.470 [dotnet] [ERROR] at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+04-01-2024 03:39:34.470 [dotnet] [ERROR] at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles(String directory, String expression, EnumerationOptions options)
+04-01-2024 03:39:34.470 [dotnet] [ERROR] at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+04-01-2024 03:39:34.470 [dotnet] [ERROR] at System.IO.Directory.EnumerateFiles(String path, String searchPattern, SearchOption searchOption)
+04-01-2024 03:39:34.470 [dotnet] [ERROR] at Gauge.Dotnet.Wrappers.DirectoryWrapper.EnumerateFiles(String path, String pattern, SearchOption searchOption) in /home/runner/work/gauge-dotnet/gauge-dotnet/src/Wrappers/DirectoryWrapper.cs:line 17
+04-01-2024 03:39:34.470 [dotnet] [ERROR] at Gauge.Dotnet.AssemblyLocater.GetTestAssembly() in /home/runner/work/gauge-dotnet/gauge-dotnet/src/AssemblyLocater.cs:line 30
+04-01-2024 03:39:34.470 [dotnet] [ERROR] at Gauge.Dotnet.GaugeListener.ConfigureServices(IServiceCollection services) in /home/runner/work/gauge-dotnet/gauge-dotnet/src/GaugeListener.cs:line 36
+04-01-2024 03:39:34.470 [dotnet] [ERROR] at System.RuntimeMethodHandle.InvokeMethod(Object target, Span`1& arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+04-01-2024 03:39:34.470 [dotnet] [ERROR] at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+04-01-2024 03:39:34.470 [dotnet] [ERROR] at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.InvokeCore(Object instance, IServiceCollection services)
+04-01-2024 03:39:34.471 [dotnet] [ERROR] at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass9_0.<Invoke>g__Startup|0(IServiceCollection serviceCollection)
+04-01-2024 03:39:34.471 [dotnet] [ERROR] at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.Invoke(Object instance, IServiceCollection services)
+04-01-2024 03:39:34.471 [dotnet] [ERROR] at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass8_0.<Build>b__0(IServiceCollection services)
+04-01-2024 03:39:34.471 [dotnet] [ERROR] at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.UseStartup(Type startupType, HostBuilderContext context, IServiceCollection services, Object instance)
+04-01-2024 03:39:34.471 [dotnet] [ERROR] at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__0(HostBuilderContext context, IServiceCollection services)
+04-01-2024 03:39:34.471 [dotnet] [ERROR] at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+04-01-2024 03:39:34.471 [dotnet] [ERROR] at Microsoft.Extensions.Hosting.HostBuilder.Build()
+04-01-2024 03:39:34.471 [dotnet] [ERROR] at Gauge.Dotnet.StartCommand.Execute() in /home/runner/work/gauge-dotnet/gauge-dotnet/src/StartCommand.cs:line 52
+04-01-2024 03:39:34.471 [dotnet] [ERROR] at Gauge.Dotnet.Program.Main(String[] args) in /home/runner/work/gauge-dotnet/gauge-dotnet/src/Program.cs:line 28
+04-01-2024 03:39:34.471 [dotnet] [ERROR] at Gauge.Dotnet.Program.<Main>(String[] args)
+04-01-2024 03:39:41.020 [Gauge] [DEBUG] Gauge could not initialize. Install 'ms-dotnettools.csharp' extension for code insights. For more information see[Problems](command:workbench.actions.view.problems), check logs.[Troubleshooting](https://docs.gauge.org/troubleshooting.html?language=javascript&ide=vscode#gauge-could-not-initialize-for-more-information-see-problems)
+Some of the gauge lsp feature will not work as expected.
+04-01-2024 03:39:41.020 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+04-01-2024 03:39:42.428 [dotnet] [INFO] /usr/share/dotnet/sdk/6.0.415/Sdks/Microsoft.NET.Sdk/targets/Microsoft.NET.TargetFrameworkInference.targets(144,5): error NETSDK1045: The current .NET SDK does not support targeting .NET 7.0.  Either target .NET 6.0 or lower, or use a version of the .NET S
+04-01-2024 03:39:42.428 [dotnet] [INFO] DK that supports .NET 7.0. [/home/wandaanna/Downloads/Dockerising/WeatherAPITests/netcore-template.csproj]
+04-01-2024 03:39:42.696 [dotnet] [ERROR] Unhandled exception.
+04-01-2024 03:39:42.732 [dotnet] [ERROR] System.IO.DirectoryNotFoundException: Could not find a part of the path '/home/wandaanna/Downloads/Dockerising/WeatherAPITests/gauge_bin'.
+04-01-2024 03:39:42.732 [dotnet] [ERROR] at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+04-01-2024 03:39:42.732 [dotnet] [ERROR] at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+04-01-2024 03:39:42.732 [dotnet] [ERROR] at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, Boolean isNormalized, EnumerationOptions options)
+04-01-2024 03:39:42.732 [dotnet] [ERROR] at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+04-01-2024 03:39:42.732 [dotnet] [ERROR] at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles(String directory, String expression, EnumerationOptions options)
+04-01-2024 03:39:42.732 [dotnet] [ERROR] at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+04-01-2024 03:39:42.732 [dotnet] [ERROR] at System.IO.Directory.EnumerateFiles(String path, String searchPattern, SearchOption searchOption)
+04-01-2024 03:39:42.732 [dotnet] [ERROR] at Gauge.Dotnet.Wrappers.DirectoryWrapper.EnumerateFiles(String path, String pattern, SearchOption searchOption) in /home/runner/work/gauge-dotnet/gauge-dotnet/src/Wrappers/DirectoryWrapper.cs:line 17
+04-01-2024 03:39:42.732 [dotnet] [ERROR] at Gauge.Dotnet.AssemblyLocater.GetTestAssembly() in /home/runner/work/gauge-dotnet/gauge-dotnet/src/AssemblyLocater.cs:line 30
+04-01-2024 03:39:42.732 [dotnet] [ERROR] at Gauge.Dotnet.GaugeListener.ConfigureServices(IServiceCollection services) in /home/runner/work/gauge-dotnet/gauge-dotnet/src/GaugeListener.cs:line 36
+04-01-2024 03:39:42.732 [dotnet] [ERROR] at System.RuntimeMethodHandle.InvokeMethod(Object target, Span`1& arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+04-01-2024 03:39:42.732 [dotnet] [ERROR] at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+04-01-2024 03:39:42.732 [dotnet] [ERROR] at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.InvokeCore(Object instance, IServiceCollection services)
+04-01-2024 03:39:42.732 [dotnet] [ERROR] at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass9_0.<Invoke>g__Startup|0(IServiceCollection serviceCollection)
+04-01-2024 03:39:42.732 [dotnet] [ERROR] at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.Invoke(Object instance, IServiceCollection services)
+04-01-2024 03:39:42.732 [dotnet] [ERROR] at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass8_0.<Build>b__0(IServiceCollection services)
+04-01-2024 03:39:42.732 [dotnet] [ERROR] at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.UseStartup(Type startupType, HostBuilderContext context, IServiceCollection services, Object instance)
+04-01-2024 03:39:42.732 [dotnet] [ERROR] at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__0(HostBuilderContext context, IServiceCollection services)
+04-01-2024 03:39:42.733 [dotnet] [ERROR] at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+04-01-2024 03:39:42.733 [dotnet] [ERROR] at Microsoft.Extensions.Hosting.HostBuilder.Build()
+04-01-2024 03:39:42.733 [dotnet] [ERROR] at Gauge.Dotnet.StartCommand.Execute() in /home/runner/work/gauge-dotnet/gauge-dotnet/src/StartCommand.cs:line 52
+04-01-2024 03:39:42.733 [dotnet] [ERROR] at Gauge.Dotnet.Program.Main(String[] args) in /home/runner/work/gauge-dotnet/gauge-dotnet/src/Program.cs:line 28
+04-01-2024 03:39:42.733 [dotnet] [ERROR] at Gauge.Dotnet.Program.<Main>(String[] args)
+04-01-2024 03:39:45.765 [dotnet] [ERROR] Aborted (core dumped)
+04-01-2024 03:39:45.791 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 134
+04-01-2024 03:39:45.791 [Gauge] [DEBUG] Gauge could not initialize. Install 'ms-dotnettools.csharp' extension for code insights. For more information see[Problems](command:workbench.actions.view.problems), check logs.[Troubleshooting](https://docs.gauge.org/troubleshooting.html?language=javascript&ide=vscode#gauge-could-not-initialize-for-more-information-see-problems)
+Some of the gauge lsp feature will not work as expected.
+04-01-2024 03:39:45.791 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+04-01-2024 03:39:47.973 [Gauge] [ERROR] notif #0: initialized: current runner is not compatible with gauge LSP
+04-01-2024 03:41:27.212 [Gauge] [DEBUG] request #2: textDocument/documentSymbol: parsing failed for /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/example.spec. [[ParseError] /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/example.spec:1 Spec does not have any elements => '']
+04-01-2024 13:57:38.014 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+04-01-2024 13:57:38.171 [Gauge] [INFO] Initializing specs cache with 1 specs
+04-01-2024 13:57:38.171 [Gauge] [DEBUG] Adding specs from /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/example.spec
+04-01-2024 13:57:38.171 [Gauge] [INFO] Initializing steps cache with 1 steps
+04-01-2024 13:57:38.172 [Gauge] [DEBUG] Watching directory: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs
+04-01-2024 13:57:38.172 [Gauge] [DEBUG] Found 1 files
+04-01-2024 13:57:38.310 [Gauge] [INFO] Starting language runner
+04-01-2024 13:57:44.836 [dotnet] [INFO] MSBuild version 17.3.2+561848881 for .NET
+04-01-2024 13:57:48.764 [dotnet] [INFO] /usr/share/dotnet/sdk/6.0.415/Sdks/Microsoft.NET.Sdk/targets/Microsoft.NET.TargetFrameworkInference.targets(144,5): error NETSDK1045: The current .NET SDK does not support targeting .NET 7.0.  Either target .NET 6.0 or lower, or use a version of the .NET SDK that supports .NET 7.0. [/home/wandaanna/Downloads/Dockerising/WeatherAPITests/netcore-template.csproj]
+04-01-2024 13:57:49.615 [dotnet] [ERROR] Unhandled exception.
+04-01-2024 13:57:49.686 [dotnet] [ERROR] System.IO.DirectoryNotFoundException: Could not find a part of the path '/home/wandaanna/Downloads/Dockerising/WeatherAPITests/gauge_bin'.
+04-01-2024 13:57:49.686 [dotnet] [ERROR] at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+04-01-2024 13:57:49.686 [dotnet] [ERROR] at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+04-01-2024 13:57:49.686 [dotnet] [ERROR] at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, Boolean isNormalized, EnumerationOptions options)
+04-01-2024 13:57:49.686 [dotnet] [ERROR] at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+04-01-2024 13:57:49.686 [dotnet] [ERROR] at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles(String directory, String expression, EnumerationOptions options)
+04-01-2024 13:57:49.686 [dotnet] [ERROR] at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+04-01-2024 13:57:49.686 [dotnet] [ERROR] at System.IO.Directory.EnumerateFiles(String path, String searchPattern, SearchOption searchOption)
+04-01-2024 13:57:49.686 [dotnet] [ERROR] at Gauge.Dotnet.Wrappers.DirectoryWrapper.EnumerateFiles(String path, String pattern, SearchOption searchOption) in /home/runner/work/gauge-dotnet/gauge-dotnet/src/Wrappers/DirectoryWrapper.cs:line 17
+04-01-2024 13:57:49.686 [dotnet] [ERROR] at Gauge.Dotnet.AssemblyLocater.GetTestAssembly() in /home/runner/work/gauge-dotnet/gauge-dotnet/src/AssemblyLocater.cs:line 30
+04-01-2024 13:57:49.686 [dotnet] [ERROR] at Gauge.Dotnet.GaugeListener.ConfigureServices(IServiceCollection services) in /home/runner/work/gauge-dotnet/gauge-dotnet/src/GaugeListener.cs:line 36
+04-01-2024 13:57:49.686 [dotnet] [ERROR] at System.RuntimeMethodHandle.InvokeMethod(Object target, Span`1& arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+04-01-2024 13:57:49.686 [dotnet] [ERROR] at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+04-01-2024 13:57:49.686 [dotnet] [ERROR] at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.InvokeCore(Object instance, IServiceCollection services)
+04-01-2024 13:57:49.686 [dotnet] [ERROR] at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass9_0.<Invoke>g__Startup|0(IServiceCollection serviceCollection)
+04-01-2024 13:57:49.686 [dotnet] [ERROR] at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.Invoke(Object instance, IServiceCollection services)
+04-01-2024 13:57:49.686 [dotnet] [ERROR] at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass8_0.<Build>b__0(IServiceCollection services)
+04-01-2024 13:57:49.686 [dotnet] [ERROR] at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.UseStartup(Type startupType, HostBuilderContext context, IServiceCollection services, Object instance)
+04-01-2024 13:57:49.686 [dotnet] [ERROR] at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__0(HostBuilderContext context, IServiceCollection services)
+04-01-2024 13:57:49.686 [dotnet] [ERROR] at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+04-01-2024 13:57:49.686 [dotnet] [ERROR] at Microsoft.Extensions.Hosting.HostBuilder.Build()
+04-01-2024 13:57:49.686 [dotnet] [ERROR] at Gauge.Dotnet.StartCommand.Execute() in /home/runner/work/gauge-dotnet/gauge-dotnet/src/StartCommand.cs:line 52
+04-01-2024 13:57:49.686 [dotnet] [ERROR] at Gauge.Dotnet.Program.Main(String[] args) in /home/runner/work/gauge-dotnet/gauge-dotnet/src/Program.cs:line 28
+04-01-2024 13:57:49.686 [dotnet] [ERROR] at Gauge.Dotnet.Program.<Main>(String[] args)
+04-01-2024 13:57:51.535 [dotnet] [ERROR] Aborted (core dumped)
+04-01-2024 13:57:51.561 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 134
+04-01-2024 13:57:51.561 [Gauge] [DEBUG] Gauge could not initialize. Install 'ms-dotnettools.csharp' extension for code insights. For more information see[Problems](command:workbench.actions.view.problems), check logs.[Troubleshooting](https://docs.gauge.org/troubleshooting.html?language=javascript&ide=vscode#gauge-could-not-initialize-for-more-information-see-problems)
+Some of the gauge lsp feature will not work as expected.
+04-01-2024 13:57:51.561 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+04-01-2024 13:57:51.596 [Gauge] [ERROR] notif #0: initialized: current runner is not compatible with gauge LSP
+04-01-2024 14:01:28.111 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:01:28.381 [Gauge] [DEBUG] request #5: textDocument/documentSymbol: parsing failed for /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec. [[ParseError] /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:1 Spec does not have any elements => '']
+04-01-2024 14:01:28.754 [Gauge] [DEBUG] request #6: textDocument/codeLens: failed to parse /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:1 Spec does not have any elements
+04-01-2024 14:01:30.661 [Gauge] [DEBUG] request #7: textDocument/codeLens: failed to parse /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:1 Spec does not have any elements
+04-01-2024 14:01:30.775 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:01:30.775 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:01:30.808 [Gauge] [DEBUG] request #9: textDocument/documentSymbol: parsing failed for /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec. [[ParseError] /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:1 Spec does not have any elements => '']
+04-01-2024 14:01:32.975 [Gauge] [DEBUG] request #11: textDocument/codeLens: failed to parse /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:1 Spec does not have any elements
+04-01-2024 14:01:33.115 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:01:33.116 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:01:33.124 [Gauge] [DEBUG] request #13: textDocument/documentSymbol: parsing failed for /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec. [[ParseError] /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:1 Spec does not have any elements => '']
+04-01-2024 14:01:34.209 [Gauge] [DEBUG] request #15: textDocument/codeLens: failed to parse /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:1 Spec does not have any elements
+04-01-2024 14:01:34.342 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:01:34.343 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:01:34.357 [Gauge] [DEBUG] request #17: textDocument/documentSymbol: parsing failed for /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec. [[ParseError] /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:1 Spec does not have any elements => '']
+04-01-2024 14:01:36.036 [Gauge] [DEBUG] request #18: textDocument/codeLens: failed to parse /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:1 Spec does not have any elements
+04-01-2024 14:01:36.177 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:01:36.178 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:01:36.185 [Gauge] [DEBUG] request #19: textDocument/documentSymbol: parsing failed for /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec. [[ParseError] /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:1 Spec does not have any elements => '']
+04-01-2024 14:01:37.554 [Gauge] [DEBUG] request #21: textDocument/codeLens: failed to parse /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:1 Spec does not have any elements
+04-01-2024 14:01:37.694 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:01:37.694 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:01:37.704 [Gauge] [DEBUG] request #23: textDocument/documentSymbol: parsing failed for /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec. [[ParseError] /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:1 Spec does not have any elements => '']
+04-01-2024 14:01:38.520 [Gauge] [DEBUG] request #25: textDocument/codeLens: failed to parse /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:1 Spec does not have any elements
+04-01-2024 14:01:38.661 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:01:38.662 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:01:38.668 [Gauge] [DEBUG] request #27: textDocument/documentSymbol: parsing failed for /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec. [[ParseError] /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:1 Spec does not have any elements => '']
+04-01-2024 14:01:41.891 [Gauge] [DEBUG] request #30: textDocument/codeLens: failed to parse /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:1 Spec does not have any elements
+04-01-2024 14:01:42.027 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:01:42.028 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:01:42.038 [Gauge] [DEBUG] request #31: textDocument/documentSymbol: parsing failed for /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec. [[ParseError] /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:1 Spec does not have any elements => '']
+04-01-2024 14:01:43.030 [Gauge] [DEBUG] request #33: textDocument/codeLens: failed to parse /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:1 Spec does not have any elements
+04-01-2024 14:01:43.168 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:01:43.169 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:01:43.178 [Gauge] [DEBUG] request #35: textDocument/documentSymbol: parsing failed for /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec. [[ParseError] /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:1 Spec does not have any elements => '']
+04-01-2024 14:01:43.951 [Gauge] [DEBUG] request #36: textDocument/codeLens: failed to parse /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:1 Spec does not have any elements
+04-01-2024 14:01:44.089 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:01:44.092 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:01:44.105 [Gauge] [DEBUG] request #37: textDocument/documentSymbol: parsing failed for /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec. [[ParseError] /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:1 Spec does not have any elements => '']
+04-01-2024 14:01:44.706 [Gauge] [DEBUG] request #38: textDocument/codeLens: failed to parse /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:1 Spec should have atleast one scenario
+04-01-2024 14:01:44.845 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:01:44.847 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:01:44.858 [Gauge] [DEBUG] request #39: textDocument/documentSymbol: parsing failed for /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec. [[ParseError] /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:1 Spec should have atleast one scenario => '']
+04-01-2024 14:01:47.225 [Gauge] [DEBUG] request #42: textDocument/codeLens: failed to parse /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:3 Scenario heading should have at least one character
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:3 Scenario should have atleast one step
+04-01-2024 14:01:47.363 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:01:47.364 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:01:47.372 [Gauge] [DEBUG] request #44: textDocument/documentSymbol: parsing failed for /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec. [[ParseError] /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:3 Scenario heading should have at least one character => '' [ParseError] /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:3 Scenario should have atleast one step => '']
+04-01-2024 14:01:48.715 [Gauge] [DEBUG] request #45: textDocument/codeLens: failed to parse /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:3 Scenario heading should have at least one character
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:3 Scenario should have atleast one step
+04-01-2024 14:01:48.852 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:01:48.853 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:01:48.863 [Gauge] [DEBUG] request #46: textDocument/documentSymbol: parsing failed for /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec. [[ParseError] /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:3 Scenario heading should have at least one character => '' [ParseError] /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:3 Scenario should have atleast one step => '']
+04-01-2024 14:01:51.441 [Gauge] [DEBUG] request #48: textDocument/codeLens: failed to parse /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:3 Scenario should have atleast one step
+04-01-2024 14:01:51.566 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:01:51.568 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:01:51.582 [Gauge] [DEBUG] request #50: textDocument/documentSymbol: parsing failed for /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec. [[ParseError] /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:3 Scenario should have atleast one step => '']
+04-01-2024 14:01:52.415 [Gauge] [DEBUG] request #52: textDocument/codeLens: failed to parse /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:3 Scenario should have atleast one step
+04-01-2024 14:01:52.554 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:01:52.555 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:01:52.564 [Gauge] [DEBUG] request #54: textDocument/documentSymbol: parsing failed for /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec. [[ParseError] /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:3 Scenario should have atleast one step => '']
+04-01-2024 14:01:54.218 [Gauge] [DEBUG] request #55: textDocument/codeLens: failed to parse /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:3 Scenario should have atleast one step
+04-01-2024 14:01:54.379 [Gauge] [DEBUG] request #56: textDocument/documentSymbol: parsing failed for /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec. [[ParseError] /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:3 Scenario should have atleast one step => '']
+04-01-2024 14:01:54.380 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:01:54.381 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:01:55.160 [Gauge] [DEBUG] request #58: textDocument/codeLens: failed to parse /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:3 Scenario should have atleast one step
+04-01-2024 14:01:55.299 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:01:55.299 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:01:55.307 [Gauge] [DEBUG] request #60: textDocument/documentSymbol: parsing failed for /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec. [[ParseError] /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:3 Scenario should have atleast one step => '']
+04-01-2024 14:01:57.140 [Gauge] [DEBUG] request #62: textDocument/codeLens: failed to parse /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:3 Scenario should have atleast one step
+04-01-2024 14:01:57.280 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:01:57.281 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:01:57.290 [Gauge] [DEBUG] request #63: textDocument/documentSymbol: parsing failed for /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec. [[ParseError] /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:3 Scenario should have atleast one step => '']
+04-01-2024 14:01:58.813 [Gauge] [DEBUG] request #65: textDocument/codeLens: failed to parse /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:3 Scenario should have atleast one step
+04-01-2024 14:01:58.950 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:01:58.951 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:01:58.959 [Gauge] [DEBUG] request #67: textDocument/documentSymbol: parsing failed for /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec. [[ParseError] /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:3 Scenario should have atleast one step => '']
+04-01-2024 14:01:59.769 [Gauge] [DEBUG] request #69: textDocument/codeLens: failed to parse /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:3 Scenario should have atleast one step
+04-01-2024 14:01:59.908 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:01:59.909 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:01:59.919 [Gauge] [DEBUG] request #71: textDocument/documentSymbol: parsing failed for /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec. [[ParseError] /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:3 Scenario should have atleast one step => '']
+04-01-2024 14:02:00.779 [Gauge] [DEBUG] request #73: textDocument/codeLens: failed to parse /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:3 Scenario should have atleast one step
+04-01-2024 14:02:00.920 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:02:00.921 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:02:00.929 [Gauge] [DEBUG] request #75: textDocument/documentSymbol: parsing failed for /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec. [[ParseError] /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:3 Scenario should have atleast one step => '']
+04-01-2024 14:02:02.063 [Gauge] [DEBUG] request #76: textDocument/codeLens: failed to parse /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:3 Scenario should have atleast one step
+04-01-2024 14:02:02.636 [Gauge] [DEBUG] request #78: textDocument/codeLens: failed to parse /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:3 Scenario should have atleast one step
+04-01-2024 14:02:03.249 [Gauge] [DEBUG] request #79: textDocument/codeLens: failed to parse /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:3 Scenario should have atleast one step
+04-01-2024 14:02:03.387 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:02:03.388 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:02:03.396 [Gauge] [DEBUG] request #80: textDocument/documentSymbol: parsing failed for /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec. [[ParseError] /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:3 Scenario should have atleast one step => '']
+04-01-2024 14:02:05.060 [Gauge] [DEBUG] request #82: textDocument/codeLens: failed to parse /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:3 Scenario should have atleast one step
+04-01-2024 14:02:05.534 [Gauge] [DEBUG] request #83: textDocument/codeLens: failed to parse /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:3 Scenario should have atleast one step
+04-01-2024 14:02:06.456 [Gauge] [DEBUG] request #85: textDocument/codeLens: failed to parse /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:3 Scenario should have atleast one step
+04-01-2024 14:02:07.056 [Gauge] [DEBUG] request #87: textDocument/codeLens: failed to parse /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:3 Scenario should have atleast one step
+04-01-2024 14:02:07.609 [Gauge] [DEBUG] request #88: textDocument/codeLens: failed to parse /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:3 Scenario should have atleast one step
+04-01-2024 14:02:07.749 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:02:07.750 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:02:07.756 [Gauge] [DEBUG] request #89: textDocument/documentSymbol: parsing failed for /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec. [[ParseError] /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:3 Scenario should have atleast one step => '']
+04-01-2024 14:02:09.641 [Gauge] [DEBUG] request #93: textDocument/codeLens: failed to parse /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:3 Scenario should have atleast one step
+04-01-2024 14:02:09.781 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:02:09.782 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:02:09.789 [Gauge] [DEBUG] request #95: textDocument/documentSymbol: parsing failed for /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec. [[ParseError] /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:3 Scenario should have atleast one step => '']
+04-01-2024 14:02:11.013 [Gauge] [DEBUG] request #98: textDocument/codeLens: failed to parse /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:3 Scenario should have atleast one step
+04-01-2024 14:02:11.521 [Gauge] [DEBUG] request #100: textDocument/codeLens: failed to parse /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:3 Scenario should have atleast one step
+04-01-2024 14:02:11.659 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:02:11.660 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:02:11.669 [Gauge] [DEBUG] request #102: textDocument/documentSymbol: parsing failed for /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec. [[ParseError] /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:3 Scenario should have atleast one step => '']
+04-01-2024 14:02:13.064 [Gauge] [DEBUG] request #104: textDocument/codeLens: failed to parse /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:3 Scenario should have atleast one step
+04-01-2024 14:02:14.080 [Gauge] [DEBUG] request #105: textDocument/codeLens: failed to parse /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:3 Scenario should have atleast one step
+04-01-2024 14:02:14.217 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:02:14.218 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:02:14.228 [Gauge] [DEBUG] request #106: textDocument/documentSymbol: parsing failed for /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec. [[ParseError] /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:3 Scenario should have atleast one step => '']
+04-01-2024 14:02:16.011 [Gauge] [DEBUG] request #108: textDocument/codeLens: failed to parse /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:3 Scenario should have atleast one step
+04-01-2024 14:02:17.021 [Gauge] [DEBUG] request #111: textDocument/codeLens: failed to parse /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:3 Scenario should have atleast one step
+04-01-2024 14:02:17.161 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:02:17.161 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:02:17.168 [Gauge] [DEBUG] request #113: textDocument/documentSymbol: parsing failed for /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec. [[ParseError] /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:3 Scenario should have atleast one step => '']
+04-01-2024 14:02:18.692 [Gauge] [DEBUG] request #115: textDocument/codeLens: failed to parse /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:3 Scenario should have atleast one step
+04-01-2024 14:02:19.552 [Gauge] [DEBUG] request #118: textDocument/codeLens: failed to parse /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:3 Scenario should have atleast one step
+04-01-2024 14:02:19.688 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:02:19.692 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:02:19.696 [Gauge] [DEBUG] request #120: textDocument/documentSymbol: parsing failed for /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec. [[ParseError] /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:3 Scenario should have atleast one step => '']
+04-01-2024 14:02:20.359 [Gauge] [DEBUG] request #121: textDocument/codeLens: failed to parse /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:3 Scenario should have atleast one step
+04-01-2024 14:02:20.505 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:02:20.506 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:02:20.507 [Gauge] [DEBUG] request #122: textDocument/documentSymbol: parsing failed for /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec. [[ParseError] /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:3 Scenario should have atleast one step => '']
+04-01-2024 14:02:21.913 [Gauge] [CRITICAL] request #123: textDocument/completion: runtime error: invalid memory address or nil pointer dereference
+goroutine 368 [running]:
+runtime/debug.Stack()
+	/opt/hostedtoolcache/go/1.21.3/x64/src/runtime/debug/stack.go:24 +0x5e
+github.com/getgauge/gauge/api/lang.recoverPanic(0xda4c4d1340021089?)
+	/home/runner/work/gauge/gauge/api/lang/server.go:308 +0x39
+panic({0xb21ca0?, 0x11e9e50?})
+	/opt/hostedtoolcache/go/1.21.3/x64/src/runtime/panic.go:914 +0x21f
+github.com/getgauge/gauge/runner.(*GrpcRunner).ExecuteMessageWithTimeout(...)
+	/home/runner/work/gauge/gauge/runner/grpcRunner.go:191
+github.com/getgauge/gauge/api/lang.getAllStepsResponse()
+	/home/runner/work/gauge/gauge/api/lang/runner.go:141 +0x6c
+github.com/getgauge/gauge/api/lang.allImplementedStepValues()
+	/home/runner/work/gauge/gauge/api/lang/completionStep.go:63 +0x1f
+github.com/getgauge/gauge/api/lang.stepCompletion({0xc0000472c9?, 0xc000044720?}, {0xc0000472c9, 0x1}, {{{0xc000044720?, 0x2?}}, {0x10?, 0xc0004eba98?}})
+	/home/runner/work/gauge/gauge/api/lang/completionStep.go:32 +0x4ce
+github.com/getgauge/gauge/api/lang.completion(0xc00060e780)
+	/home/runner/work/gauge/gauge/api/lang/completion.go:60 +0x13b
+github.com/getgauge/gauge/api/lang.(*LangHandler).Handle(0x120d5e0?, {0xd2c1b0?, 0x1237b60}, {0xd2a330?, 0xc0000a5050?}, 0xc00060e780)
+	/home/runner/work/gauge/gauge/api/lang/server.go:120 +0x14b5
+github.com/getgauge/gauge/api/lang.(*LangHandler).handle(0x0?, {0xd2c1b0?, 0x1237b60?}, 0xc0004ebf10?, 0x47755a?)
+	/home/runner/work/gauge/gauge/api/lang/server.go:60 +0x72
+github.com/sourcegraph/jsonrpc2.(*HandlerWithErrorConfigurer).Handle(0xc00004b3d0, {0xd2c1b0, 0x1237b60}, 0xc0000a5050, 0xc00060e780)
+	/home/runner/go/pkg/mod/github.com/sourcegraph/jsonrpc2@v0.2.0/handler_with_error.go:21 +0x57
+created by github.com/getgauge/gauge/api/lang.lspHandler.Handle in goroutine 5
+	/home/runner/work/gauge/gauge/api/lang/server.go:55 +0xd4
+04-01-2024 14:02:21.973 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+04-01-2024 14:02:21.974 [Gauge] [INFO] Initializing specs cache with 2 specs
+04-01-2024 14:02:21.974 [Gauge] [DEBUG] Adding specs from /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:02:21.974 [Gauge] [DEBUG] Adding specs from /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/example.spec
+04-01-2024 14:02:21.974 [Gauge] [INFO] Initializing steps cache with 2 steps
+04-01-2024 14:02:21.974 [Gauge] [DEBUG] Watching directory: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs
+04-01-2024 14:02:21.974 [Gauge] [DEBUG] Found 2 files
+04-01-2024 14:02:21.974 [Gauge] [INFO] Starting language runner
+04-01-2024 14:02:22.424 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:02:22.425 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:02:22.696 [dotnet] [INFO] MSBuild version 17.3.2+561848881 for .NET
+04-01-2024 14:02:23.743 [dotnet] [INFO] /usr/share/dotnet/sdk/6.0.415/Sdks/Microsoft.NET.Sdk/targets/Microsoft.NET.TargetFrameworkInference.targets(144,5): error NETSDK1045: The current .NET SDK does not support targeting .NET 7.0.  Either target .NET 6.0 or lower, or use a version of the .NET SDK that supports .NET 7.0. [/home/wandaanna/Downloads/Dockerising/WeatherAPITests/netcore-template.csproj]
+04-01-2024 14:02:23.919 [dotnet] [ERROR] Unhandled exception.
+04-01-2024 14:02:23.941 [dotnet] [ERROR] System.IO.DirectoryNotFoundException: Could not find a part of the path '/home/wandaanna/Downloads/Dockerising/WeatherAPITests/gauge_bin'.
+04-01-2024 14:02:23.941 [dotnet] [ERROR] at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+04-01-2024 14:02:23.941 [dotnet] [ERROR] at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+04-01-2024 14:02:23.941 [dotnet] [ERROR] at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, Boolean isNormalized, EnumerationOptions options)
+04-01-2024 14:02:23.941 [dotnet] [ERROR] at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+04-01-2024 14:02:23.941 [dotnet] [ERROR] at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles(String directory, String expression, EnumerationOptions options)
+04-01-2024 14:02:23.941 [dotnet] [ERROR] at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+04-01-2024 14:02:23.941 [dotnet] [ERROR] at System.IO.Directory.EnumerateFiles(String path, String searchPattern, SearchOption searchOption)
+04-01-2024 14:02:23.941 [dotnet] [ERROR] at Gauge.Dotnet.Wrappers.DirectoryWrapper.EnumerateFiles(String path, String pattern, SearchOption searchOption) in /home/runner/work/gauge-dotnet/gauge-dotnet/src/Wrappers/DirectoryWrapper.cs:line 17
+04-01-2024 14:02:23.941 [dotnet] [ERROR] at Gauge.Dotnet.AssemblyLocater.GetTestAssembly() in /home/runner/work/gauge-dotnet/gauge-dotnet/src/AssemblyLocater.cs:line 30
+04-01-2024 14:02:23.941 [dotnet] [ERROR] at Gauge.Dotnet.GaugeListener.ConfigureServices(IServiceCollection services) in /home/runner/work/gauge-dotnet/gauge-dotnet/src/GaugeListener.cs:line 36
+04-01-2024 14:02:23.941 [dotnet] [ERROR] at System.RuntimeMethodHandle.InvokeMethod(Object target, Span`1& arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+04-01-2024 14:02:23.941 [dotnet] [ERROR] at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+04-01-2024 14:02:23.941 [dotnet] [ERROR] at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.InvokeCore(Object instance, IServiceCollection services)
+04-01-2024 14:02:23.941 [dotnet] [ERROR] at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass9_0.<Invoke>g__Startup|0(IServiceCollection serviceCollection)
+04-01-2024 14:02:23.941 [dotnet] [ERROR] at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.Invoke(Object instance, IServiceCollection services)
+04-01-2024 14:02:23.941 [dotnet] [ERROR] at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass8_0.<Build>b__0(IServiceCollection services)
+04-01-2024 14:02:23.941 [dotnet] [ERROR] at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.UseStartup(Type startupType, HostBuilderContext context, IServiceCollection services, Object instance)
+04-01-2024 14:02:23.941 [dotnet] [ERROR] at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__0(HostBuilderContext context, IServiceCollection services)
+04-01-2024 14:02:23.941 [dotnet] [ERROR] at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+04-01-2024 14:02:23.941 [dotnet] [ERROR] at Microsoft.Extensions.Hosting.HostBuilder.Build()
+04-01-2024 14:02:23.941 [dotnet] [ERROR] at Gauge.Dotnet.StartCommand.Execute() in /home/runner/work/gauge-dotnet/gauge-dotnet/src/StartCommand.cs:line 52
+04-01-2024 14:02:23.941 [dotnet] [ERROR] at Gauge.Dotnet.Program.Main(String[] args) in /home/runner/work/gauge-dotnet/gauge-dotnet/src/Program.cs:line 28
+04-01-2024 14:02:23.941 [dotnet] [ERROR] at Gauge.Dotnet.Program.<Main>(String[] args)
+04-01-2024 14:02:24.313 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:02:24.314 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:02:25.127 [dotnet] [ERROR] Aborted (core dumped)
+04-01-2024 14:02:25.128 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 134
+04-01-2024 14:02:25.128 [Gauge] [DEBUG] Gauge could not initialize. Install 'ms-dotnettools.csharp' extension for code insights. For more information see[Problems](command:workbench.actions.view.problems), check logs.[Troubleshooting](https://docs.gauge.org/troubleshooting.html?language=javascript&ide=vscode#gauge-could-not-initialize-for-more-information-see-problems)
+Some of the gauge lsp feature will not work as expected.
+04-01-2024 14:02:25.128 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+04-01-2024 14:02:25.143 [Gauge] [ERROR] notif #0: initialized: current runner is not compatible with gauge LSP
+04-01-2024 14:02:25.177 [Gauge] [CRITICAL] request #1: textDocument/completion: runtime error: invalid memory address or nil pointer dereference
+goroutine 29 [running]:
+runtime/debug.Stack()
+	/opt/hostedtoolcache/go/1.21.3/x64/src/runtime/debug/stack.go:24 +0x5e
+github.com/getgauge/gauge/api/lang.recoverPanic(0x1?)
+	/home/runner/work/gauge/gauge/api/lang/server.go:308 +0x39
+panic({0xb21ca0?, 0x11e9e50?})
+	/opt/hostedtoolcache/go/1.21.3/x64/src/runtime/panic.go:914 +0x21f
+github.com/getgauge/gauge/runner.(*GrpcRunner).ExecuteMessageWithTimeout(...)
+	/home/runner/work/gauge/gauge/runner/grpcRunner.go:191
+github.com/getgauge/gauge/api/lang.getAllStepsResponse()
+	/home/runner/work/gauge/gauge/api/lang/runner.go:141 +0x6c
+github.com/getgauge/gauge/api/lang.allImplementedStepValues()
+	/home/runner/work/gauge/gauge/api/lang/completionStep.go:63 +0x1f
+github.com/getgauge/gauge/api/lang.stepCompletion({0xc000258d19?, 0xc000205320?}, {0xc000258d19, 0x2}, {{{0xc000205320?, 0xc00049a378?}}, {0x0?, 0xc00049a378?}})
+	/home/runner/work/gauge/gauge/api/lang/completionStep.go:32 +0x4ce
+github.com/getgauge/gauge/api/lang.completion(0xc0002f1320)
+	/home/runner/work/gauge/gauge/api/lang/completion.go:60 +0x13b
+github.com/getgauge/gauge/api/lang.(*LangHandler).Handle(0x1237b60?, {0xd2c1b0?, 0x1237b60}, {0xd2a330?, 0xc0000cc750?}, 0xc0002f1320)
+	/home/runner/work/gauge/gauge/api/lang/server.go:120 +0x14b5
+github.com/getgauge/gauge/api/lang.(*LangHandler).handle(0x0?, {0xd2c1b0?, 0x1237b60?}, 0x0?, 0x0?)
+	/home/runner/work/gauge/gauge/api/lang/server.go:60 +0x72
+github.com/sourcegraph/jsonrpc2.(*HandlerWithErrorConfigurer).Handle(0xc00004a900, {0xd2c1b0, 0x1237b60}, 0xc0000cc750, 0xc0002f1320)
+	/home/runner/go/pkg/mod/github.com/sourcegraph/jsonrpc2@v0.2.0/handler_with_error.go:21 +0x57
+created by github.com/getgauge/gauge/api/lang.lspHandler.Handle in goroutine 10
+	/home/runner/work/gauge/gauge/api/lang/server.go:55 +0xd4
+04-01-2024 14:02:25.203 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+04-01-2024 14:02:25.205 [Gauge] [INFO] Initializing specs cache with 2 specs
+04-01-2024 14:02:25.205 [Gauge] [DEBUG] Adding specs from /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/example.spec
+04-01-2024 14:02:25.205 [Gauge] [DEBUG] Adding specs from /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:02:25.205 [Gauge] [INFO] Initializing steps cache with 2 steps
+04-01-2024 14:02:25.206 [Gauge] [INFO] Starting language runner
+04-01-2024 14:02:25.209 [Gauge] [DEBUG] Watching directory: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs
+04-01-2024 14:02:25.209 [Gauge] [DEBUG] Found 2 files
+04-01-2024 14:02:25.895 [dotnet] [INFO] MSBuild version 17.3.2+561848881 for .NET
+04-01-2024 14:02:26.874 [dotnet] [INFO] /usr/share/dotnet/sdk/6.0.415/Sdks/Microsoft.NET.Sdk/targets/Microsoft.NET.TargetFrameworkInference.targets(144,5): error NETSDK1045: The current .NET SDK does not support targeting .NET 7.0.  Either target .NET 6.0 or lower, or use a version of the .NET SDK that supports .NET 7.0. [/home/wandaanna/Downloads/Dockerising/WeatherAPITests/netcore-template.csproj]
+04-01-2024 14:02:27.142 [dotnet] [ERROR] Unhandled exception.
+04-01-2024 14:02:27.166 [dotnet] [ERROR] System.IO.DirectoryNotFoundException: Could not find a part of the path '/home/wandaanna/Downloads/Dockerising/WeatherAPITests/gauge_bin'.
+04-01-2024 14:02:27.166 [dotnet] [ERROR] at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+04-01-2024 14:02:27.166 [dotnet] [ERROR] at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+04-01-2024 14:02:27.166 [dotnet] [ERROR] at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, Boolean isNormalized, EnumerationOptions options)
+04-01-2024 14:02:27.166 [dotnet] [ERROR] at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+04-01-2024 14:02:27.166 [dotnet] [ERROR] at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles(String directory, String expression, EnumerationOptions options)
+04-01-2024 14:02:27.166 [dotnet] [ERROR] at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+04-01-2024 14:02:27.166 [dotnet] [ERROR] at System.IO.Directory.EnumerateFiles(String path, String searchPattern, SearchOption searchOption)
+04-01-2024 14:02:27.166 [dotnet] [ERROR] at Gauge.Dotnet.Wrappers.DirectoryWrapper.EnumerateFiles(String path, String pattern, SearchOption searchOption) in /home/runner/work/gauge-dotnet/gauge-dotnet/src/Wrappers/DirectoryWrapper.cs:line 17
+04-01-2024 14:02:27.166 [dotnet] [ERROR] at Gauge.Dotnet.AssemblyLocater.GetTestAssembly() in /home/runner/work/gauge-dotnet/gauge-dotnet/src/AssemblyLocater.cs:line 30
+04-01-2024 14:02:27.166 [dotnet] [ERROR] at Gauge.Dotnet.GaugeListener.ConfigureServices(IServiceCollection services) in /home/runner/work/gauge-dotnet/gauge-dotnet/src/GaugeListener.cs:line 36
+04-01-2024 14:02:27.166 [dotnet] [ERROR] at System.RuntimeMethodHandle.InvokeMethod(Object target, Span`1& arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+04-01-2024 14:02:27.166 [dotnet] [ERROR] at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+04-01-2024 14:02:27.166 [dotnet] [ERROR] at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.InvokeCore(Object instance, IServiceCollection services)
+04-01-2024 14:02:27.166 [dotnet] [ERROR] at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass9_0.<Invoke>g__Startup|0(IServiceCollection serviceCollection)
+04-01-2024 14:02:27.166 [dotnet] [ERROR] at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.Invoke(Object instance, IServiceCollection services)
+04-01-2024 14:02:27.166 [dotnet] [ERROR] at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass8_0.<Build>b__0(IServiceCollection services)
+04-01-2024 14:02:27.166 [dotnet] [ERROR] at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.UseStartup(Type startupType, HostBuilderContext context, IServiceCollection services, Object instance)
+04-01-2024 14:02:27.166 [dotnet] [ERROR] at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__0(HostBuilderContext context, IServiceCollection services)
+04-01-2024 14:02:27.166 [dotnet] [ERROR] at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+04-01-2024 14:02:27.166 [dotnet] [ERROR] at Microsoft.Extensions.Hosting.HostBuilder.Build()
+04-01-2024 14:02:27.166 [dotnet] [ERROR] at Gauge.Dotnet.StartCommand.Execute() in /home/runner/work/gauge-dotnet/gauge-dotnet/src/StartCommand.cs:line 52
+04-01-2024 14:02:27.166 [dotnet] [ERROR] at Gauge.Dotnet.Program.Main(String[] args) in /home/runner/work/gauge-dotnet/gauge-dotnet/src/Program.cs:line 28
+04-01-2024 14:02:27.166 [dotnet] [ERROR] at Gauge.Dotnet.Program.<Main>(String[] args)
+04-01-2024 14:02:28.355 [dotnet] [ERROR] Aborted (core dumped)
+04-01-2024 14:02:28.355 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 134
+04-01-2024 14:02:28.355 [Gauge] [DEBUG] Gauge could not initialize. Install 'ms-dotnettools.csharp' extension for code insights. For more information see[Problems](command:workbench.actions.view.problems), check logs.[Troubleshooting](https://docs.gauge.org/troubleshooting.html?language=javascript&ide=vscode#gauge-could-not-initialize-for-more-information-see-problems)
+Some of the gauge lsp feature will not work as expected.
+04-01-2024 14:02:28.355 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+04-01-2024 14:02:28.364 [Gauge] [ERROR] notif #0: initialized: current runner is not compatible with gauge LSP
+04-01-2024 14:02:28.441 [Gauge] [DEBUG] request #2: textDocument/documentSymbol: parsing failed for /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec. [[ParseError] /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:5 Step should not be blank => '']
+04-01-2024 14:02:28.441 [Gauge] [CRITICAL] request #1: textDocument/completion: runtime error: invalid memory address or nil pointer dereference
+goroutine 37 [running]:
+runtime/debug.Stack()
+	/opt/hostedtoolcache/go/1.21.3/x64/src/runtime/debug/stack.go:24 +0x5e
+github.com/getgauge/gauge/api/lang.recoverPanic(0x1?)
+	/home/runner/work/gauge/gauge/api/lang/server.go:308 +0x39
+panic({0xb21ca0?, 0x11e9e50?})
+	/opt/hostedtoolcache/go/1.21.3/x64/src/runtime/panic.go:914 +0x21f
+github.com/getgauge/gauge/runner.(*GrpcRunner).ExecuteMessageWithTimeout(...)
+	/home/runner/work/gauge/gauge/runner/grpcRunner.go:191
+github.com/getgauge/gauge/api/lang.getAllStepsResponse()
+	/home/runner/work/gauge/gauge/api/lang/runner.go:141 +0x6c
+github.com/getgauge/gauge/api/lang.allImplementedStepValues()
+	/home/runner/work/gauge/gauge/api/lang/completionStep.go:63 +0x1f
+github.com/getgauge/gauge/api/lang.stepCompletion({0xc0000461b9?, 0xc000101980?}, {0xc0000461b9, 0x2}, {{{0xc000101980?, 0xc000426038?}}, {0x0?, 0xc000426038?}})
+	/home/runner/work/gauge/gauge/api/lang/completionStep.go:32 +0x4ce
+github.com/getgauge/gauge/api/lang.completion(0xc0003ae180)
+	/home/runner/work/gauge/gauge/api/lang/completion.go:60 +0x13b
+github.com/getgauge/gauge/api/lang.(*LangHandler).Handle(0x1237b60?, {0xd2c1b0?, 0x1237b60}, {0xd2a330?, 0xc000334120?}, 0xc0003ae180)
+	/home/runner/work/gauge/gauge/api/lang/server.go:120 +0x14b5
+github.com/getgauge/gauge/api/lang.(*LangHandler).handle(0x0?, {0xd2c1b0?, 0x1237b60?}, 0x0?, 0x0?)
+	/home/runner/work/gauge/gauge/api/lang/server.go:60 +0x72
+github.com/sourcegraph/jsonrpc2.(*HandlerWithErrorConfigurer).Handle(0xc00021bc60, {0xd2c1b0, 0x1237b60}, 0xc000334120, 0xc0003ae180)
+	/home/runner/go/pkg/mod/github.com/sourcegraph/jsonrpc2@v0.2.0/handler_with_error.go:21 +0x57
+created by github.com/getgauge/gauge/api/lang.lspHandler.Handle in goroutine 29
+	/home/runner/work/gauge/gauge/api/lang/server.go:55 +0xd4
+04-01-2024 14:02:28.507 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+04-01-2024 14:02:28.508 [Gauge] [INFO] Initializing specs cache with 2 specs
+04-01-2024 14:02:28.509 [Gauge] [DEBUG] Adding specs from /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:02:28.509 [Gauge] [DEBUG] Adding specs from /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/example.spec
+04-01-2024 14:02:28.509 [Gauge] [INFO] Initializing steps cache with 2 steps
+04-01-2024 14:02:28.509 [Gauge] [INFO] Starting language runner
+04-01-2024 14:02:28.511 [Gauge] [DEBUG] Watching directory: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs
+04-01-2024 14:02:28.511 [Gauge] [DEBUG] Found 2 files
+04-01-2024 14:02:29.346 [dotnet] [INFO] MSBuild version 17.3.2+561848881 for .NET
+04-01-2024 14:02:29.692 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:02:29.693 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:02:30.362 [dotnet] [INFO] /usr/share/dotnet/sdk/6.0.415/Sdks/Microsoft.NET.Sdk/targets/Microsoft.NET.TargetFrameworkInference.targets(144,5): error NETSDK1045: The current .NET SDK does not support targeting .NET 7.0.  Either target .NET 6.0 or lower, or use a version of the .NET SDK that supports .NET 7.0. [/home/wandaanna/Downloads/Dockerising/WeatherAPITests/netcore-template.csproj]
+04-01-2024 14:02:30.541 [dotnet] [ERROR] Unhandled exception.
+04-01-2024 14:02:30.563 [dotnet] [ERROR] System.IO.DirectoryNotFoundException: Could not find a part of the path '/home/wandaanna/Downloads/Dockerising/WeatherAPITests/gauge_bin'.
+04-01-2024 14:02:30.563 [dotnet] [ERROR] at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+04-01-2024 14:02:30.563 [dotnet] [ERROR] at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+04-01-2024 14:02:30.563 [dotnet] [ERROR] at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, Boolean isNormalized, EnumerationOptions options)
+04-01-2024 14:02:30.563 [dotnet] [ERROR] at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+04-01-2024 14:02:30.563 [dotnet] [ERROR] at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles(String directory, String expression, EnumerationOptions options)
+04-01-2024 14:02:30.563 [dotnet] [ERROR] at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+04-01-2024 14:02:30.563 [dotnet] [ERROR] at System.IO.Directory.EnumerateFiles(String path, String searchPattern, SearchOption searchOption)
+04-01-2024 14:02:30.563 [dotnet] [ERROR] at Gauge.Dotnet.Wrappers.DirectoryWrapper.EnumerateFiles(String path, String pattern, SearchOption searchOption) in /home/runner/work/gauge-dotnet/gauge-dotnet/src/Wrappers/DirectoryWrapper.cs:line 17
+04-01-2024 14:02:30.563 [dotnet] [ERROR] at Gauge.Dotnet.AssemblyLocater.GetTestAssembly() in /home/runner/work/gauge-dotnet/gauge-dotnet/src/AssemblyLocater.cs:line 30
+04-01-2024 14:02:30.563 [dotnet] [ERROR] at Gauge.Dotnet.GaugeListener.ConfigureServices(IServiceCollection services) in /home/runner/work/gauge-dotnet/gauge-dotnet/src/GaugeListener.cs:line 36
+04-01-2024 14:02:30.563 [dotnet] [ERROR] at System.RuntimeMethodHandle.InvokeMethod(Object target, Span`1& arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+04-01-2024 14:02:30.563 [dotnet] [ERROR] at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+04-01-2024 14:02:30.563 [dotnet] [ERROR] at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.InvokeCore(Object instance, IServiceCollection services)
+04-01-2024 14:02:30.563 [dotnet] [ERROR] at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass9_0.<Invoke>g__Startup|0(IServiceCollection serviceCollection)
+04-01-2024 14:02:30.563 [dotnet] [ERROR] at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.Invoke(Object instance, IServiceCollection services)
+04-01-2024 14:02:30.563 [dotnet] [ERROR] at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass8_0.<Build>b__0(IServiceCollection services)
+04-01-2024 14:02:30.563 [dotnet] [ERROR] at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.UseStartup(Type startupType, HostBuilderContext context, IServiceCollection services, Object instance)
+04-01-2024 14:02:30.563 [dotnet] [ERROR] at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__0(HostBuilderContext context, IServiceCollection services)
+04-01-2024 14:02:30.563 [dotnet] [ERROR] at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+04-01-2024 14:02:30.564 [dotnet] [ERROR] at Microsoft.Extensions.Hosting.HostBuilder.Build()
+04-01-2024 14:02:30.564 [dotnet] [ERROR] at Gauge.Dotnet.StartCommand.Execute() in /home/runner/work/gauge-dotnet/gauge-dotnet/src/StartCommand.cs:line 52
+04-01-2024 14:02:30.564 [dotnet] [ERROR] at Gauge.Dotnet.Program.Main(String[] args) in /home/runner/work/gauge-dotnet/gauge-dotnet/src/Program.cs:line 28
+04-01-2024 14:02:30.564 [dotnet] [ERROR] at Gauge.Dotnet.Program.<Main>(String[] args)
+04-01-2024 14:02:31.108 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:02:31.109 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:02:31.771 [dotnet] [ERROR] Aborted (core dumped)
+04-01-2024 14:02:31.772 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 134
+04-01-2024 14:02:31.772 [Gauge] [DEBUG] Gauge could not initialize. Install 'ms-dotnettools.csharp' extension for code insights. For more information see[Problems](command:workbench.actions.view.problems), check logs.[Troubleshooting](https://docs.gauge.org/troubleshooting.html?language=javascript&ide=vscode#gauge-could-not-initialize-for-more-information-see-problems)
+Some of the gauge lsp feature will not work as expected.
+04-01-2024 14:02:31.772 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+04-01-2024 14:02:31.779 [Gauge] [ERROR] notif #0: initialized: current runner is not compatible with gauge LSP
+04-01-2024 14:02:31.831 [Gauge] [CRITICAL] request #1: textDocument/completion: runtime error: invalid memory address or nil pointer dereference
+goroutine 53 [running]:
+runtime/debug.Stack()
+	/opt/hostedtoolcache/go/1.21.3/x64/src/runtime/debug/stack.go:24 +0x5e
+github.com/getgauge/gauge/api/lang.recoverPanic(0x0?)
+	/home/runner/work/gauge/gauge/api/lang/server.go:308 +0x39
+panic({0xb21ca0?, 0x11e9e50?})
+	/opt/hostedtoolcache/go/1.21.3/x64/src/runtime/panic.go:914 +0x21f
+github.com/getgauge/gauge/runner.(*GrpcRunner).ExecuteMessageWithTimeout(...)
+	/home/runner/work/gauge/gauge/runner/grpcRunner.go:191
+github.com/getgauge/gauge/api/lang.getAllStepsResponse()
+	/home/runner/work/gauge/gauge/api/lang/runner.go:141 +0x6c
+github.com/getgauge/gauge/api/lang.allImplementedStepValues()
+	/home/runner/work/gauge/gauge/api/lang/completionStep.go:63 +0x1f
+github.com/getgauge/gauge/api/lang.stepCompletion({0xc0000a80e9?, 0xc0000449c0?}, {0xc0000a80e9, 0xb}, {{{0xc0000449c0?, 0xc00048e6b8?}}, {0x0?, 0xc00048e6b8?}})
+	/home/runner/work/gauge/gauge/api/lang/completionStep.go:32 +0x4ce
+github.com/getgauge/gauge/api/lang.completion(0xc000289260)
+	/home/runner/work/gauge/gauge/api/lang/completion.go:60 +0x13b
+github.com/getgauge/gauge/api/lang.(*LangHandler).Handle(0x1237b60?, {0xd2c1b0?, 0x1237b60}, {0xd2a330?, 0xc00033a1b0?}, 0xc000289260)
+	/home/runner/work/gauge/gauge/api/lang/server.go:120 +0x14b5
+github.com/getgauge/gauge/api/lang.(*LangHandler).handle(0x0?, {0xd2c1b0?, 0x1237b60?}, 0x0?, 0x0?)
+	/home/runner/work/gauge/gauge/api/lang/server.go:60 +0x72
+github.com/sourcegraph/jsonrpc2.(*HandlerWithErrorConfigurer).Handle(0xc00030a590, {0xd2c1b0, 0x1237b60}, 0xc00033a1b0, 0xc000289260)
+	/home/runner/go/pkg/mod/github.com/sourcegraph/jsonrpc2@v0.2.0/handler_with_error.go:21 +0x57
+created by github.com/getgauge/gauge/api/lang.lspHandler.Handle in goroutine 39
+	/home/runner/work/gauge/gauge/api/lang/server.go:55 +0xd4
+04-01-2024 14:02:31.856 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+04-01-2024 14:02:31.857 [Gauge] [INFO] Initializing specs cache with 2 specs
+04-01-2024 14:02:31.858 [Gauge] [DEBUG] Adding specs from /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:02:31.858 [Gauge] [DEBUG] Adding specs from /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/example.spec
+04-01-2024 14:02:31.858 [Gauge] [INFO] Initializing steps cache with 2 steps
+04-01-2024 14:02:31.858 [Gauge] [DEBUG] Watching directory: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs
+04-01-2024 14:02:31.858 [Gauge] [DEBUG] Found 2 files
+04-01-2024 14:02:31.858 [Gauge] [INFO] Starting language runner
+04-01-2024 14:02:32.577 [dotnet] [INFO] MSBuild version 17.3.2+561848881 for .NET
+04-01-2024 14:02:32.716 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:02:32.716 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:02:33.524 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:02:33.524 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:02:33.732 [dotnet] [INFO] /usr/share/dotnet/sdk/6.0.415/Sdks/Microsoft.NET.Sdk/targets/Microsoft.NET.TargetFrameworkInference.targets(144,5): error NETSDK1045: The current .NET SDK does not support targeting .NET 7.0.  Either target .NET 6.0 or lower, or use a version of the .NET SDK that supports .NET 7.0. [/home/wandaanna/Downloads/Dockerising/WeatherAPITests/netcore-template.csproj]
+04-01-2024 14:02:33.895 [dotnet] [ERROR] Unhandled exception.
+04-01-2024 14:02:33.917 [dotnet] [ERROR] System.IO.DirectoryNotFoundException: Could not find a part of the path '/home/wandaanna/Downloads/Dockerising/WeatherAPITests/gauge_bin'.
+04-01-2024 14:02:33.917 [dotnet] [ERROR] at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+04-01-2024 14:02:33.917 [dotnet] [ERROR] at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+04-01-2024 14:02:33.917 [dotnet] [ERROR] at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, Boolean isNormalized, EnumerationOptions options)
+04-01-2024 14:02:33.917 [dotnet] [ERROR] at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+04-01-2024 14:02:33.917 [dotnet] [ERROR] at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles(String directory, String expression, EnumerationOptions options)
+04-01-2024 14:02:33.917 [dotnet] [ERROR] at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+04-01-2024 14:02:33.917 [dotnet] [ERROR] at System.IO.Directory.EnumerateFiles(String path, String searchPattern, SearchOption searchOption)
+04-01-2024 14:02:33.917 [dotnet] [ERROR] at Gauge.Dotnet.Wrappers.DirectoryWrapper.EnumerateFiles(String path, String pattern, SearchOption searchOption) in /home/runner/work/gauge-dotnet/gauge-dotnet/src/Wrappers/DirectoryWrapper.cs:line 17
+04-01-2024 14:02:33.917 [dotnet] [ERROR] at Gauge.Dotnet.AssemblyLocater.GetTestAssembly() in /home/runner/work/gauge-dotnet/gauge-dotnet/src/AssemblyLocater.cs:line 30
+04-01-2024 14:02:33.917 [dotnet] [ERROR] at Gauge.Dotnet.GaugeListener.ConfigureServices(IServiceCollection services) in /home/runner/work/gauge-dotnet/gauge-dotnet/src/GaugeListener.cs:line 36
+04-01-2024 14:02:33.917 [dotnet] [ERROR] at System.RuntimeMethodHandle.InvokeMethod(Object target, Span`1& arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+04-01-2024 14:02:33.917 [dotnet] [ERROR] at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+04-01-2024 14:02:33.917 [dotnet] [ERROR] at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.InvokeCore(Object instance, IServiceCollection services)
+04-01-2024 14:02:33.918 [dotnet] [ERROR] at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass9_0.<Invoke>g__Startup|0(IServiceCollection serviceCollection)
+04-01-2024 14:02:33.918 [dotnet] [ERROR] at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.Invoke(Object instance, IServiceCollection services)
+04-01-2024 14:02:33.918 [dotnet] [ERROR] at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass8_0.<Build>b__0(IServiceCollection services)
+04-01-2024 14:02:33.918 [dotnet] [ERROR] at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.UseStartup(Type startupType, HostBuilderContext context, IServiceCollection services, Object instance)
+04-01-2024 14:02:33.918 [dotnet] [ERROR] at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__0(HostBuilderContext context, IServiceCollection services)
+04-01-2024 14:02:33.918 [dotnet] [ERROR] at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+04-01-2024 14:02:33.918 [dotnet] [ERROR] at Microsoft.Extensions.Hosting.HostBuilder.Build()
+04-01-2024 14:02:33.918 [dotnet] [ERROR] at Gauge.Dotnet.StartCommand.Execute() in /home/runner/work/gauge-dotnet/gauge-dotnet/src/StartCommand.cs:line 52
+04-01-2024 14:02:33.918 [dotnet] [ERROR] at Gauge.Dotnet.Program.Main(String[] args) in /home/runner/work/gauge-dotnet/gauge-dotnet/src/Program.cs:line 28
+04-01-2024 14:02:33.918 [dotnet] [ERROR] at Gauge.Dotnet.Program.<Main>(String[] args)
+04-01-2024 14:02:34.969 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:02:34.969 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 14:02:35.108 [dotnet] [ERROR] Aborted (core dumped)
+04-01-2024 14:02:35.108 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 134
+04-01-2024 14:02:35.108 [Gauge] [DEBUG] Gauge could not initialize. Install 'ms-dotnettools.csharp' extension for code insights. For more information see[Problems](command:workbench.actions.view.problems), check logs.[Troubleshooting](https://docs.gauge.org/troubleshooting.html?language=javascript&ide=vscode#gauge-could-not-initialize-for-more-information-see-problems)
+Some of the gauge lsp feature will not work as expected.
+04-01-2024 14:02:35.108 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+04-01-2024 14:02:35.116 [Gauge] [ERROR] notif #0: initialized: current runner is not compatible with gauge LSP
+04-01-2024 14:02:35.323 [Gauge] [CRITICAL] request #3: textDocument/completion: runtime error: invalid memory address or nil pointer dereference
+goroutine 11 [running]:
+runtime/debug.Stack()
+	/opt/hostedtoolcache/go/1.21.3/x64/src/runtime/debug/stack.go:24 +0x5e
+github.com/getgauge/gauge/api/lang.recoverPanic(0x0?)
+	/home/runner/work/gauge/gauge/api/lang/server.go:308 +0x39
+panic({0xb21ca0?, 0x11e9e50?})
+	/opt/hostedtoolcache/go/1.21.3/x64/src/runtime/panic.go:914 +0x21f
+github.com/getgauge/gauge/runner.(*GrpcRunner).ExecuteMessageWithTimeout(...)
+	/home/runner/work/gauge/gauge/runner/grpcRunner.go:191
+github.com/getgauge/gauge/api/lang.getAllStepsResponse()
+	/home/runner/work/gauge/gauge/api/lang/runner.go:141 +0x6c
+github.com/getgauge/gauge/api/lang.allImplementedStepValues()
+	/home/runner/work/gauge/gauge/api/lang/completionStep.go:63 +0x1f
+github.com/getgauge/gauge/api/lang.stepCompletion({0xc0001361e9?, 0xc000044c00?}, {0xc0001361e9, 0x12}, {{{0xc000044c00?, 0xe6?}}, {0xf0?, 0xac4100?}})
+	/home/runner/work/gauge/gauge/api/lang/completionStep.go:32 +0x4ce
+github.com/getgauge/gauge/api/lang.completion(0xc0004c6360)
+	/home/runner/work/gauge/gauge/api/lang/completion.go:60 +0x13b
+github.com/getgauge/gauge/api/lang.(*LangHandler).Handle(0x1237b60?, {0xd2c1b0?, 0x1237b60}, {0xd2a330?, 0xc000217c20?}, 0xc0004c6360)
+	/home/runner/work/gauge/gauge/api/lang/server.go:120 +0x14b5
+github.com/getgauge/gauge/api/lang.(*LangHandler).handle(0x0?, {0xd2c1b0?, 0x1237b60?}, 0x0?, 0x0?)
+	/home/runner/work/gauge/gauge/api/lang/server.go:60 +0x72
+github.com/sourcegraph/jsonrpc2.(*HandlerWithErrorConfigurer).Handle(0xc00029b9e0, {0xd2c1b0, 0x1237b60}, 0xc000217c20, 0xc0004c6360)
+	/home/runner/go/pkg/mod/github.com/sourcegraph/jsonrpc2@v0.2.0/handler_with_error.go:21 +0x57
+created by github.com/getgauge/gauge/api/lang.lspHandler.Handle in goroutine 51
+	/home/runner/work/gauge/gauge/api/lang/server.go:55 +0xd4
+04-01-2024 15:27:06.445 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+04-01-2024 15:27:06.869 [Gauge] [INFO] Initializing specs cache with 2 specs
+04-01-2024 15:27:06.869 [Gauge] [DEBUG] Adding specs from /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 15:27:06.869 [Gauge] [DEBUG] Adding specs from /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/example.spec
+04-01-2024 15:27:06.869 [Gauge] [INFO] Initializing steps cache with 2 steps
+04-01-2024 15:27:06.869 [Gauge] [DEBUG] Watching directory: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs
+04-01-2024 15:27:06.869 [Gauge] [DEBUG] Found 2 files
+04-01-2024 15:27:06.908 [Gauge] [INFO] Starting language runner
+04-01-2024 15:27:29.929 [dotnet] [INFO] MSBuild version 17.3.2+561848881 for .NET
+04-01-2024 15:27:37.012 [Gauge] [DEBUG] Gauge could not initialize. Install 'ms-dotnettools.csharp' extension for code insights. For more information see[Problems](command:workbench.actions.view.problems), check logs.[Troubleshooting](https://docs.gauge.org/troubleshooting.html?language=javascript&ide=vscode#gauge-could-not-initialize-for-more-information-see-problems)
+Some of the gauge lsp feature will not work as expected.
+04-01-2024 15:27:37.012 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+04-01-2024 15:27:38.781 [Gauge] [ERROR] notif #0: initialized: current runner is not compatible with gauge LSP
+04-01-2024 15:28:27.977 [dotnet] [DEBUG] Loading assembly from : Gauge.Dotnet.AssemblyPath
+04-01-2024 15:28:28.026 [dotnet] [DEBUG] Using ExecutableRunnerServiceHandler
+04-01-2024 15:43:12.638 [Gauge] [DEBUG] request #3: textDocument/documentSymbol: parsing failed for /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec. [[ParseError] /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:1 Spec does not have any elements => '']
+04-01-2024 15:47:46.328 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 15:47:46.328 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 15:47:47.750 [Gauge] [DEBUG] request #18: textDocument/codeLens: failed to parse /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec:7 Step should not be blank
+04-01-2024 15:47:47.820 [Gauge] [CRITICAL] request #19: textDocument/completion: runtime error: invalid memory address or nil pointer dereference
+goroutine 68 [running]:
+runtime/debug.Stack()
+	/opt/hostedtoolcache/go/1.21.3/x64/src/runtime/debug/stack.go:24 +0x5e
+github.com/getgauge/gauge/api/lang.recoverPanic(0x419533?)
+	/home/runner/work/gauge/gauge/api/lang/server.go:308 +0x39
+panic({0xb21ca0?, 0x11e9e50?})
+	/opt/hostedtoolcache/go/1.21.3/x64/src/runtime/panic.go:914 +0x21f
+github.com/getgauge/gauge/runner.(*GrpcRunner).ExecuteMessageWithTimeout(...)
+	/home/runner/work/gauge/gauge/runner/grpcRunner.go:191
+github.com/getgauge/gauge/api/lang.getAllStepsResponse()
+	/home/runner/work/gauge/gauge/api/lang/runner.go:141 +0x6c
+github.com/getgauge/gauge/api/lang.allImplementedStepValues()
+	/home/runner/work/gauge/gauge/api/lang/completionStep.go:63 +0x1f
+github.com/getgauge/gauge/api/lang.stepCompletion({0xc0001940ea?, 0xc0000445a0?}, {0xc0001940ea, 0x2}, {{{0xc0000445a0?, 0x0?}}, {0x0?, 0x0?}})
+	/home/runner/work/gauge/gauge/api/lang/completionStep.go:32 +0x4ce
+github.com/getgauge/gauge/api/lang.completion(0xc000110300)
+	/home/runner/work/gauge/gauge/api/lang/completion.go:60 +0x13b
+github.com/getgauge/gauge/api/lang.(*LangHandler).Handle(0x0?, {0xd2c1b0?, 0x1237b60}, {0xd2a330?, 0xc0002ba090?}, 0xc000110300)
+	/home/runner/work/gauge/gauge/api/lang/server.go:120 +0x14b5
+github.com/getgauge/gauge/api/lang.(*LangHandler).handle(0x0?, {0xd2c1b0?, 0x1237b60?}, 0x0?, 0x0?)
+	/home/runner/work/gauge/gauge/api/lang/server.go:60 +0x72
+github.com/sourcegraph/jsonrpc2.(*HandlerWithErrorConfigurer).Handle(0xc00028e260, {0xd2c1b0, 0x1237b60}, 0xc0002ba090, 0xc000110300)
+	/home/runner/go/pkg/mod/github.com/sourcegraph/jsonrpc2@v0.2.0/handler_with_error.go:21 +0x57
+created by github.com/getgauge/gauge/api/lang.lspHandler.Handle in goroutine 35
+	/home/runner/work/gauge/gauge/api/lang/server.go:55 +0xd4
+04-01-2024 15:47:48.546 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+04-01-2024 15:47:48.548 [Gauge] [INFO] Initializing specs cache with 2 specs
+04-01-2024 15:47:48.548 [Gauge] [DEBUG] Adding specs from /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 15:47:48.548 [Gauge] [DEBUG] Adding specs from /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/example.spec
+04-01-2024 15:47:48.548 [Gauge] [INFO] Initializing steps cache with 2 steps
+04-01-2024 15:47:48.548 [Gauge] [DEBUG] Watching directory: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs
+04-01-2024 15:47:48.548 [Gauge] [DEBUG] Found 2 files
+04-01-2024 15:47:48.576 [Gauge] [INFO] Starting language runner
+04-01-2024 15:47:48.925 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 15:47:48.927 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 15:47:49.923 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 15:47:49.924 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 15:47:50.645 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 15:47:50.647 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 15:47:51.775 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 15:47:51.776 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 15:47:52.797 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 15:47:52.799 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 15:47:53.482 [dotnet] [INFO] MSBuild version 17.3.2+561848881 for .NET
+04-01-2024 15:47:54.429 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 15:47:54.431 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 15:47:55.900 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 15:47:55.902 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 15:47:57.210 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 15:47:57.211 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 15:47:59.623 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 15:47:59.625 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 15:48:00.668 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 15:48:00.669 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 15:48:02.038 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 15:48:02.039 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 15:48:05.746 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 15:48:05.747 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 15:48:06.855 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 15:48:06.855 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 15:48:08.464 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 15:48:08.465 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 15:48:09.238 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 15:48:09.238 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 15:48:11.872 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 15:48:11.874 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 15:48:13.389 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 15:48:13.391 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 15:48:18.790 [Gauge] [DEBUG] Gauge could not initialize. Install 'ms-dotnettools.csharp' extension for code insights. For more information see[Problems](command:workbench.actions.view.problems), check logs.[Troubleshooting](https://docs.gauge.org/troubleshooting.html?language=javascript&ide=vscode#gauge-could-not-initialize-for-more-information-see-problems)
+Some of the gauge lsp feature will not work as expected.
+04-01-2024 15:48:18.791 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+04-01-2024 15:48:18.995 [Gauge] [ERROR] notif #0: initialized: current runner is not compatible with gauge LSP
+04-01-2024 15:48:19.540 [Gauge] [CRITICAL] request #1: textDocument/completion: runtime error: invalid memory address or nil pointer dereference
+goroutine 131 [running]:
+runtime/debug.Stack()
+	/opt/hostedtoolcache/go/1.21.3/x64/src/runtime/debug/stack.go:24 +0x5e
+github.com/getgauge/gauge/api/lang.recoverPanic(0x419533?)
+	/home/runner/work/gauge/gauge/api/lang/server.go:308 +0x39
+panic({0xb21ca0?, 0x11e9e50?})
+	/opt/hostedtoolcache/go/1.21.3/x64/src/runtime/panic.go:914 +0x21f
+github.com/getgauge/gauge/runner.(*GrpcRunner).ExecuteMessageWithTimeout(...)
+	/home/runner/work/gauge/gauge/runner/grpcRunner.go:191
+github.com/getgauge/gauge/api/lang.getAllStepsResponse()
+	/home/runner/work/gauge/gauge/api/lang/runner.go:141 +0x6c
+github.com/getgauge/gauge/api/lang.allImplementedStepValues()
+	/home/runner/work/gauge/gauge/api/lang/completionStep.go:63 +0x1f
+github.com/getgauge/gauge/api/lang.stepCompletion({0xc0000b0c09?, 0xc000044240?}, {0xc0000b0c09, 0x9}, {{{0xc000044240?, 0x7f6c5b891a60?}}, {0xc0002afb60?, 0x0?}})
+	/home/runner/work/gauge/gauge/api/lang/completionStep.go:32 +0x4ce
+github.com/getgauge/gauge/api/lang.completion(0xc000320720)
+	/home/runner/work/gauge/gauge/api/lang/completion.go:60 +0x13b
+github.com/getgauge/gauge/api/lang.(*LangHandler).Handle(0x0?, {0xd2c1b0?, 0x1237b60}, {0xd2a330?, 0xc000168990?}, 0xc000320720)
+	/home/runner/work/gauge/gauge/api/lang/server.go:120 +0x14b5
+github.com/getgauge/gauge/api/lang.(*LangHandler).handle(0x1200004b?, {0xd2c1b0?, 0x1237b60?}, 0x120f960?, 0x416d46?)
+	/home/runner/work/gauge/gauge/api/lang/server.go:60 +0x72
+github.com/sourcegraph/jsonrpc2.(*HandlerWithErrorConfigurer).Handle(0xc00043c620, {0xd2c1b0, 0x1237b60}, 0xc000168990, 0xc000320720)
+	/home/runner/go/pkg/mod/github.com/sourcegraph/jsonrpc2@v0.2.0/handler_with_error.go:21 +0x57
+created by github.com/getgauge/gauge/api/lang.lspHandler.Handle in goroutine 84
+	/home/runner/work/gauge/gauge/api/lang/server.go:55 +0xd4
+04-01-2024 15:48:21.724 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+04-01-2024 15:48:21.728 [Gauge] [INFO] Initializing specs cache with 2 specs
+04-01-2024 15:48:21.728 [Gauge] [DEBUG] Adding specs from /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 15:48:21.728 [Gauge] [DEBUG] Adding specs from /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/example.spec
+04-01-2024 15:48:21.729 [Gauge] [INFO] Initializing steps cache with 2 steps
+04-01-2024 15:48:21.729 [Gauge] [DEBUG] Watching directory: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs
+04-01-2024 15:48:21.730 [Gauge] [DEBUG] Found 2 files
+04-01-2024 15:48:21.730 [Gauge] [INFO] Starting language runner
+04-01-2024 15:48:24.549 [dotnet] [INFO] MSBuild version 17.3.2+561848881 for .NET
+04-01-2024 15:48:29.195 [dotnet] [DEBUG] Loading assembly from : Gauge.Dotnet.AssemblyPath
+04-01-2024 15:48:29.210 [dotnet] [DEBUG] Using ExecutableRunnerServiceHandler
+04-01-2024 15:48:29.457 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 46255
+04-01-2024 15:48:29.639 [Gauge] [DEBUG] Successfully made the connection with runner with port: 46255
+04-01-2024 15:48:29.639 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+04-01-2024 15:48:29.658 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:48:30.953 [dotnet] [DEBUG] Loading assembly from : Gauge.Dotnet.AssemblyPath
+04-01-2024 15:48:30.955 [dotnet] [DEBUG] Try load Gauge.CSharp.Lib in LockFreeGaugeLoadContext
+04-01-2024 15:48:30.973 [dotnet] [DEBUG] Try load netcore-template in LockFreeGaugeLoadContext
+04-01-2024 15:48:30.973 [dotnet] [DEBUG] Try load System.Runtime in LockFreeGaugeLoadContext
+04-01-2024 15:48:30.974 [dotnet] [DEBUG] Try load RestSharp in LockFreeGaugeLoadContext
+04-01-2024 15:48:30.975 [dotnet] [DEBUG] Try load System.Collections in LockFreeGaugeLoadContext
+04-01-2024 15:48:30.976 [dotnet] [DEBUG] Try load FluentAssertions in LockFreeGaugeLoadContext
+04-01-2024 15:48:31.005 [dotnet] [DEBUG] Try load System.Linq in LockFreeGaugeLoadContext
+04-01-2024 15:48:31.006 [dotnet] [DEBUG] Try load System.Runtime in LockFreeGaugeLoadContext
+04-01-2024 15:48:31.014 [dotnet] [DEBUG] Number of AssembliesReferencingGaugeLib : 1
+04-01-2024 15:48:31.015 [dotnet] [DEBUG] Try load System.Runtime in LockFreeGaugeLoadContext
+04-01-2024 15:48:31.015 [dotnet] [DEBUG] Try load System.Collections in LockFreeGaugeLoadContext
+04-01-2024 15:48:31.024 [dotnet] [DEBUG] Building StepRegistry...
+04-01-2024 15:48:31.031 [dotnet] [DEBUG] 4 Step implementations found. Adding to registry...
+04-01-2024 15:48:31.032 [dotnet] [DEBUG] 'call the weather api for johannesburg using the latidue and logitude location': implementation found in StepRegistry, setting reflected methodInfo
+04-01-2024 15:48:31.036 [dotnet] [DEBUG] 'Vowels in English language are {}.': implementation found in StepRegistry, setting reflected methodInfo
+04-01-2024 15:48:31.036 [dotnet] [DEBUG] 'The word {} has {} vowels.': implementation found in StepRegistry, setting reflected methodInfo
+04-01-2024 15:48:31.037 [dotnet] [DEBUG] 'Almost all words have vowels {}': implementation found in StepRegistry, setting reflected methodInfo
+04-01-2024 15:48:31.041 [dotnet] [DEBUG] Try load System.Collections.Concurrent in LockFreeGaugeLoadContext
+04-01-2024 15:48:31.041 [dotnet] [DEBUG] Try load System.Threading in LockFreeGaugeLoadContext
+04-01-2024 15:48:31.042 [dotnet] [DEBUG] Loaded Instance Manager of Type:Gauge.CSharp.Lib.DefaultClassInstanceManager
+04-01-2024 15:48:31.203 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:48:34.285 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:48:34.483 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:48:34.804 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:48:35.303 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:48:35.590 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:48:35.853 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 15:48:35.853 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 15:48:36.241 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:48:36.747 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 15:48:36.749 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 15:48:37.203 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:48:37.293 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:48:37.619 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:48:38.098 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 15:48:38.101 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 15:48:38.660 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:48:39.140 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 15:48:39.146 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 15:48:39.368 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:48:39.456 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:48:39.735 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:48:40.215 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 15:48:40.216 [Gauge] [DEBUG] Spec file added / modified: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+04-01-2024 15:51:11.090 [Gauge] [DEBUG] request #42: textDocument/definition: Step implementation not found for step : verify that the correction loaction is called.
+04-01-2024 15:51:16.247 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:51:16.850 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:51:26.144 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:51:26.343 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:51:27.105 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:52:16.899 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:52:17.964 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:52:20.445 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:52:21.753 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:52:22.385 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:52:24.063 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:52:24.388 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:52:26.011 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:52:27.036 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:52:28.350 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:52:29.000 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:52:35.307 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:52:36.679 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:52:38.078 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:52:39.458 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:52:39.709 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:52:40.046 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:52:41.353 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:52:42.099 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:52:42.883 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:52:43.403 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:52:44.120 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:52:45.038 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:52:45.314 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:53:18.228 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:53:18.911 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:53:19.217 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:53:20.470 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:53:20.869 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:53:21.143 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:53:35.904 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:53:37.178 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:53:38.060 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:53:38.326 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:54:12.495 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:54:13.471 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:54:15.466 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:54:16.697 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:54:16.707 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:54:16.989 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:54:17.271 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:54:19.266 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:54:20.754 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:54:21.070 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:54:21.355 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:54:22.175 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:54:24.011 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:54:24.773 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:54:25.043 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:54:29.304 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:54:30.586 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:54:33.316 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:54:33.597 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:54:33.852 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:54:42.404 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:54:45.152 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:54:45.426 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:54:45.722 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:54:45.898 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:54:46.326 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:54:47.405 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:54:48.094 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:54:49.052 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:54:50.127 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:54:56.351 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:54:57.119 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:54:59.801 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:55:00.073 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:55:00.346 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:55:03.369 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:55:04.656 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:55:04.926 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:55:05.193 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:55:06.388 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:55:06.658 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:55:06.932 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:55:07.927 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:55:08.202 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:55:09.615 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:55:10.936 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:55:11.236 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:55:11.511 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:55:23.088 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:56:20.001 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:56:24.315 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:56:25.187 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:56:27.121 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:56:29.586 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:56:29.857 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:56:40.411 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:56:41.285 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:56:41.562 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:56:59.036 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:56:59.331 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:56:59.627 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:57:00.934 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:57:01.219 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:57:02.134 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:57:03.225 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:57:03.501 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:57:04.711 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:57:08.878 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:57:09.176 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:57:09.469 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:57:11.342 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:57:14.217 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:57:14.567 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:57:15.700 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:57:16.081 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:57:16.379 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:57:16.659 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:57:17.861 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:57:18.129 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:57:18.399 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:57:19.109 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:57:19.379 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:57:20.952 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:57:23.657 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:57:28.951 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:57:31.678 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:57:31.943 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:57:32.244 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:57:32.602 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:57:32.908 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:57:33.974 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:57:34.915 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:57:37.239 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:57:38.837 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:57:39.883 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:57:41.630 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:57:42.279 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:57:43.293 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:57:44.002 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:57:44.966 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:57:46.224 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:57:47.664 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:57:52.588 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:57:53.649 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:57:54.228 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:57:55.788 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:57:56.715 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:57:57.178 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:57:58.183 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:57:59.493 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:58:01.389 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:58:03.520 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:58:04.538 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:58:25.439 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:58:30.564 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:58:37.051 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:58:37.584 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:58:40.292 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:58:44.904 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:58:46.438 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:58:47.478 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:58:50.068 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:58:51.193 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:58:51.490 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:58:51.775 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:58:53.420 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:58:54.252 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:59:01.629 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:59:01.708 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:59:02.688 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:59:02.955 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:59:03.557 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:59:07.898 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:59:08.179 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:59:08.449 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:59:09.327 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:59:10.163 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:59:10.429 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:59:10.742 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:59:11.026 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:59:12.263 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:59:12.540 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:59:13.637 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:59:15.172 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:59:16.333 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:59:17.083 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:59:17.843 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:59:18.994 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:59:19.000 [Gauge] [DEBUG] Validation completed.
+04-01-2024 15:59:19.261 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:59:19.277 [Gauge] [DEBUG] Validation completed.
+04-01-2024 15:59:20.881 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:59:20.896 [Gauge] [DEBUG] Validation completed.
+04-01-2024 15:59:21.296 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:59:21.305 [Gauge] [DEBUG] Validation completed.
+04-01-2024 15:59:21.691 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:59:21.696 [Gauge] [DEBUG] Validation completed.
+04-01-2024 15:59:23.019 [Gauge] [DEBUG] Validation started.
+04-01-2024 15:59:23.033 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:00:01.327 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:00:01.332 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:00:01.948 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:00:01.954 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:00:03.743 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:00:04.128 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:00:06.062 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:00:07.022 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:00:07.771 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:00:09.239 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:00:11.044 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:00:12.027 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:00:13.863 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:00:13.876 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:00:33.060 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:00:33.678 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:00:33.949 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:00:34.265 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:00:34.282 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:00:35.136 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:00:35.140 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:00:35.805 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:00:35.810 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:00:36.276 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:00:36.281 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:00:51.423 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:00:51.438 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:00:51.974 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:00:51.980 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:00:52.850 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:00:52.867 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:00:53.653 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:00:53.664 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:00:54.453 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:00:54.459 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:00:55.044 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:00:55.049 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:00:55.448 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:00:55.460 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:00:59.521 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:00:59.527 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:01:03.621 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:01:03.632 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:01:25.998 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:01:26.005 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:01:31.784 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:01:31.794 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:01:32.874 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:01:32.881 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:01:35.380 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:01:35.393 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:05:24.592 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:05:25.572 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:34:05.736 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:34:05.910 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:34:06.696 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:34:06.702 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:34:07.691 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:34:08.603 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:34:09.128 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:34:09.586 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:34:14.083 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:34:14.441 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:34:14.725 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:34:15.177 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:34:15.258 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:34:16.586 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:34:16.951 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:34:29.787 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:34:29.797 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:35:06.253 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:35:06.266 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:35:07.645 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:35:07.653 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:35:11.178 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:35:11.184 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:35:12.237 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:35:12.242 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:35:14.279 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:35:14.325 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:35:15.513 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:35:15.520 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:35:34.161 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:35:34.167 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:35:35.093 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:35:35.111 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:35:38.953 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:35:38.958 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:35:42.030 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:35:42.040 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:35:42.216 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:35:42.232 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:35:42.500 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:35:42.507 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:35:42.902 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:35:42.914 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:35:48.632 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:35:48.642 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:35:51.795 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:35:51.813 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:35:56.982 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:35:56.986 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:36:01.576 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:36:01.582 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:36:03.535 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:36:03.548 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:36:05.911 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:36:05.923 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:36:13.289 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:36:13.297 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:36:22.074 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:36:22.083 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:36:23.400 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:36:23.405 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:36:24.518 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:36:24.527 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:36:27.167 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:36:27.174 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:36:28.346 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:36:28.355 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:36:30.089 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:36:30.096 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:36:31.372 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:36:31.376 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:36:32.384 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:36:32.391 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:36:41.060 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:36:41.065 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:36:41.908 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:36:42.022 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:36:42.310 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:36:42.325 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:36:43.207 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:36:43.214 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:36:44.228 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:36:44.233 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:36:46.150 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:36:46.159 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:36:46.411 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:36:46.418 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:36:46.946 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:36:46.951 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:36:48.983 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:36:48.989 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:36:49.365 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:36:49.374 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:36:50.235 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:36:50.255 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:36:51.107 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:36:51.113 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:36:52.813 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:36:52.821 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:36:56.931 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:36:56.947 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:36:57.750 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:36:57.757 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:36:59.123 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:36:59.134 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:36:59.974 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:36:59.981 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:37:01.952 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:37:01.964 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:37:02.621 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:37:02.628 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:37:03.094 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:37:03.287 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:37:03.548 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:37:03.563 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:37:04.547 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:37:04.554 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:37:05.109 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:37:05.115 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:37:09.486 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:37:09.493 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:37:10.482 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:37:10.488 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:37:11.179 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:37:11.184 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:37:13.047 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:37:13.052 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:37:15.391 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:37:15.403 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:37:15.673 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:37:15.680 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:37:16.190 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:37:16.207 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:37:17.703 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:37:17.716 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:37:21.980 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:37:21.986 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:37:28.503 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:37:28.512 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:37:28.807 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:37:28.812 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:37:31.757 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:37:31.770 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:37:34.258 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:37:34.272 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:37:35.211 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:37:35.228 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:37:36.590 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:37:36.596 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:37:37.206 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:37:37.212 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:37:39.595 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:37:39.602 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:37:40.610 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:37:40.616 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:37:45.468 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:37:45.483 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:37:46.197 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:37:46.205 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:37:54.291 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:37:54.307 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:38:59.311 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:38:59.318 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:39:00.065 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:39:00.085 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:39:03.995 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:39:04.005 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:39:22.458 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:39:22.466 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:39:23.027 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:39:23.069 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:39:26.820 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:39:26.826 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:39:28.452 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:39:28.458 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:39:29.835 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:39:29.841 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:39:30.769 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:39:30.777 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:39:31.223 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:39:31.234 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:39:31.803 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:39:31.814 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:39:49.454 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:39:49.464 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:39:50.586 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:39:50.592 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:39:52.814 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:39:52.820 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:39:53.338 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:39:53.342 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:39:54.764 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:39:54.769 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:39:55.797 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:39:55.814 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:40:20.819 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:40:20.828 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:40:22.211 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:40:22.219 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:40:26.155 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:40:26.166 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:40:27.606 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:40:27.613 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:40:28.522 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:40:28.550 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:40:29.047 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:40:29.058 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:40:30.027 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:40:30.036 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:40:32.080 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:40:32.091 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:40:33.351 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:40:33.357 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:40:33.987 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:40:33.997 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:40:34.254 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:40:34.260 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:40:35.428 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:40:35.433 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:40:37.212 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:40:37.220 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:40:37.617 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:40:37.622 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:40:38.446 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:40:38.461 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:40:38.799 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:40:38.804 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:40:39.533 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:40:39.538 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:40:41.262 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:40:41.269 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:40:46.157 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:40:46.166 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:41:02.770 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:41:02.778 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:41:04.591 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:41:04.598 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:41:04.975 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:41:04.981 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:41:05.288 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:41:05.384 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:41:16.737 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:41:16.751 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:41:19.479 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:41:19.496 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:41:21.974 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:41:21.983 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:41:22.417 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:41:22.429 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:41:22.927 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:41:22.944 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:41:24.697 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:41:24.707 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:41:29.253 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:41:29.262 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:41:30.680 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:41:30.692 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:41:31.370 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:41:31.375 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:41:55.630 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:41:55.636 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:41:58.180 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:41:58.192 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:41:59.189 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:41:59.196 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:41:59.991 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:42:00.003 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:42:01.437 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:42:01.452 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:42:05.181 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:42:05.186 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:42:06.585 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:42:06.660 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:42:07.371 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:42:07.377 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:42:09.323 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:42:09.337 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:42:12.627 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:42:12.633 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:42:21.315 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:42:21.323 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:42:21.684 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:42:21.700 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:42:22.861 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:42:22.871 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:42:24.098 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:42:24.102 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:42:32.546 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:42:32.550 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:42:33.731 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:42:33.735 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:42:59.783 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:42:59.789 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:43:00.265 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:43:00.422 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:43:00.821 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:43:00.856 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:43:09.902 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:43:09.912 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:43:18.580 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:43:18.586 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:43:18.874 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:43:18.885 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:43:19.163 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:43:19.175 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:43:20.351 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:43:20.357 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:43:44.171 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:43:44.186 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:44:21.688 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:44:21.694 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:44:27.672 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:44:27.684 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:47:10.825 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:47:10.831 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:47:11.594 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:47:11.649 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:47:12.701 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:47:12.717 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:47:13.478 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:47:13.535 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:47:13.923 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:47:13.936 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:47:14.779 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:47:14.786 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:49:20.397 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:49:20.405 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:49:22.022 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:49:22.028 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:51:04.726 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:51:04.733 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:51:13.681 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:51:13.688 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:51:54.129 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:51:54.138 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:51:56.656 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:51:56.702 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:51:57.214 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:51:57.231 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:51:57.533 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:51:57.545 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:52:24.221 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:52:24.228 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:52:25.038 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:52:25.048 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:52:25.543 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:52:25.549 [Gauge] [DEBUG] Validation completed.
+04-01-2024 16:52:36.553 [Gauge] [DEBUG] Validation started.
+04-01-2024 16:52:36.570 [Gauge] [DEBUG] Validation completed.
+04-01-2024 17:14:19.615 [Gauge] [DEBUG] Validation started.
+04-01-2024 17:14:19.715 [Gauge] [DEBUG] Validation completed.
+04-01-2024 17:14:20.358 [Gauge] [DEBUG] Validation started.
+04-01-2024 17:14:20.375 [Gauge] [DEBUG] Validation completed.
+04-01-2024 17:14:32.950 [Gauge] [DEBUG] Validation started.
+04-01-2024 17:14:38.767 [Gauge] [DEBUG] Validation completed.
+04-01-2024 17:14:38.888 [Gauge] [DEBUG] Validation started.
+04-01-2024 17:14:39.230 [Gauge] [DEBUG] Validation completed.
+04-01-2024 17:14:42.891 [Gauge] [DEBUG] Validation started.
+04-01-2024 17:14:42.901 [Gauge] [DEBUG] Validation completed.
+04-01-2024 17:14:46.777 [Gauge] [DEBUG] Validation started.
+04-01-2024 17:14:46.787 [Gauge] [DEBUG] Validation completed.
+04-01-2024 17:14:55.641 [Gauge] [DEBUG] Validation started.
+04-01-2024 17:14:55.647 [Gauge] [DEBUG] Validation completed.
+04-01-2024 17:14:56.041 [Gauge] [DEBUG] Validation started.
+04-01-2024 17:14:56.099 [Gauge] [DEBUG] Validation completed.
+04-01-2024 17:15:02.858 [Gauge] [DEBUG] Validation started.
+04-01-2024 17:15:02.862 [Gauge] [DEBUG] Validation completed.
+04-01-2024 17:15:06.459 [Gauge] [DEBUG] Validation started.
+04-01-2024 17:15:06.471 [Gauge] [DEBUG] Validation completed.
+04-01-2024 17:15:07.405 [Gauge] [DEBUG] Validation started.
+04-01-2024 17:15:07.418 [Gauge] [DEBUG] Validation completed.
+04-01-2024 17:15:08.176 [Gauge] [DEBUG] Validation started.
+04-01-2024 17:15:08.423 [Gauge] [DEBUG] Validation completed.
+04-01-2024 17:15:08.847 [Gauge] [DEBUG] Validation started.
+04-01-2024 17:15:08.857 [Gauge] [DEBUG] Validation completed.
+04-01-2024 17:15:10.535 [Gauge] [DEBUG] Validation started.
+04-01-2024 17:15:10.597 [Gauge] [DEBUG] Validation completed.
+04-01-2024 17:15:11.160 [Gauge] [DEBUG] Validation started.
+04-01-2024 17:15:11.165 [Gauge] [DEBUG] Validation completed.
+04-01-2024 17:15:14.886 [Gauge] [DEBUG] Validation started.
+04-01-2024 17:15:15.195 [Gauge] [DEBUG] Validation completed.
+04-01-2024 17:15:15.236 [Gauge] [DEBUG] Validation started.
+04-01-2024 17:15:15.250 [Gauge] [DEBUG] Validation completed.
+04-01-2024 17:15:15.368 [Gauge] [DEBUG] Validation started.
+04-01-2024 17:15:15.379 [Gauge] [DEBUG] Validation completed.
+04-01-2024 17:15:16.600 [Gauge] [DEBUG] Validation started.
+04-01-2024 17:15:16.610 [Gauge] [DEBUG] Validation completed.
+04-01-2024 17:15:17.119 [Gauge] [DEBUG] Validation started.
+04-01-2024 17:15:17.161 [Gauge] [DEBUG] Validation completed.
+04-01-2024 17:15:18.040 [Gauge] [DEBUG] Validation started.
+04-01-2024 17:15:18.132 [Gauge] [DEBUG] Validation completed.
+04-01-2024 17:15:18.376 [Gauge] [DEBUG] Validation started.
+04-01-2024 17:15:18.441 [Gauge] [DEBUG] Validation completed.
+04-01-2024 17:15:23.487 [Gauge] [DEBUG] Validation started.
+04-01-2024 17:15:23.499 [Gauge] [DEBUG] Validation completed.
+04-01-2024 17:15:32.035 [Gauge] [DEBUG] Validation started.
+04-01-2024 17:15:32.295 [Gauge] [DEBUG] Validation completed.
+04-01-2024 17:15:59.545 [Gauge] [DEBUG] Validation started.
+04-01-2024 17:15:59.604 [Gauge] [DEBUG] Validation completed.
+04-01-2024 17:15:59.606 [Gauge] [DEBUG] Validation started.
+04-01-2024 17:15:59.612 [Gauge] [DEBUG] Validation completed.
+04-01-2024 17:16:16.061 [Gauge] [DEBUG] Validation started.
+04-01-2024 17:16:16.479 [Gauge] [DEBUG] Validation completed.
+04-01-2024 17:16:37.376 [Gauge] [DEBUG] Validation started.
+04-01-2024 17:16:37.398 [Gauge] [DEBUG] Validation completed.
+04-01-2024 17:16:37.942 [Gauge] [DEBUG] Validation started.
+04-01-2024 17:16:37.949 [Gauge] [DEBUG] Validation completed.
+04-01-2024 17:16:38.259 [Gauge] [DEBUG] Validation started.
+04-01-2024 17:16:38.271 [Gauge] [DEBUG] Validation completed.
+04-01-2024 17:16:45.978 [Gauge] [DEBUG] Validation started.
+04-01-2024 17:16:46.471 [Gauge] [DEBUG] Validation completed.
+04-01-2024 17:16:47.807 [Gauge] [DEBUG] Validation started.
+04-01-2024 17:16:47.812 [Gauge] [DEBUG] Validation completed.
+04-01-2024 17:27:00.581 [Gauge] [DEBUG] Validation started.
+04-01-2024 17:27:00.700 [Gauge] [DEBUG] Validation completed.
+04-01-2024 17:27:03.204 [Gauge] [DEBUG] Validation started.
+04-01-2024 17:27:03.213 [Gauge] [DEBUG] Validation completed.
+04-01-2024 17:27:03.508 [Gauge] [DEBUG] Validation started.
+04-01-2024 17:27:03.526 [Gauge] [DEBUG] Validation completed.
+04-01-2024 17:27:08.222 [Gauge] [DEBUG] Validation started.
+04-01-2024 17:27:08.230 [Gauge] [DEBUG] Validation completed.
+04-01-2024 17:27:24.325 [Gauge] [DEBUG] Validation started.
+04-01-2024 17:27:24.334 [Gauge] [DEBUG] Validation completed.
+04-01-2024 17:27:25.773 [Gauge] [DEBUG] Validation started.
+04-01-2024 17:27:25.855 [Gauge] [DEBUG] Validation completed.
+04-01-2024 17:27:26.559 [Gauge] [DEBUG] Validation started.
+04-01-2024 17:27:26.564 [Gauge] [DEBUG] Validation completed.
+04-01-2024 17:27:46.511 [Gauge] [DEBUG] Validation started.
+04-01-2024 17:27:46.519 [Gauge] [DEBUG] Validation completed.
+04-01-2024 17:27:53.983 [Gauge] [DEBUG] Validation started.
+04-01-2024 17:27:53.988 [Gauge] [DEBUG] Validation completed.
+04-01-2024 17:27:56.463 [Gauge] [DEBUG] Validation started.
+04-01-2024 17:27:56.763 [Gauge] [DEBUG] Validation completed.
+04-01-2024 17:28:01.951 [Gauge] [DEBUG] Validation started.
+04-01-2024 17:28:02.728 [Gauge] [DEBUG] Validation completed.
+04-01-2024 17:28:08.466 [Gauge] [DEBUG] Validation started.
+04-01-2024 17:28:08.744 [Gauge] [DEBUG] Validation completed.
+04-01-2024 17:28:40.786 [Gauge] [DEBUG] Validation started.
+04-01-2024 17:28:40.792 [Gauge] [DEBUG] Validation completed.
+04-01-2024 17:28:42.312 [Gauge] [DEBUG] Validation started.
+04-01-2024 17:28:42.732 [Gauge] [DEBUG] Validation completed.
+04-01-2024 17:28:50.725 [Gauge] [DEBUG] Validation started.
+04-01-2024 17:28:50.779 [Gauge] [DEBUG] Validation completed.
+04-01-2024 17:29:22.745 [Gauge] [DEBUG] Validation started.
+04-01-2024 17:29:22.768 [Gauge] [DEBUG] Validation completed.
+04-01-2024 17:29:23.477 [Gauge] [DEBUG] Validation started.
+04-01-2024 17:29:23.487 [Gauge] [DEBUG] Validation completed.
+04-01-2024 17:30:14.952 [Gauge] [DEBUG] Validation started.
+04-01-2024 17:30:15.057 [Gauge] [DEBUG] Validation completed.
+04-01-2024 17:30:15.560 [Gauge] [DEBUG] Validation started.
+04-01-2024 17:30:15.608 [Gauge] [DEBUG] Validation completed.
+04-01-2024 17:30:20.077 [Gauge] [DEBUG] Validation started.
+04-01-2024 17:30:20.285 [Gauge] [DEBUG] Validation completed.
+04-01-2024 17:30:20.290 [Gauge] [DEBUG] Validation started.
+04-01-2024 17:30:20.303 [Gauge] [DEBUG] Validation completed.
+04-01-2024 17:30:47.072 [Gauge] [DEBUG] Validation started.
+04-01-2024 17:30:47.079 [Gauge] [DEBUG] Validation completed.
+04-01-2024 17:30:59.076 [Gauge] [DEBUG] Validation started.
+04-01-2024 17:30:59.421 [Gauge] [DEBUG] Validation completed.
+04-01-2024 17:30:59.426 [Gauge] [DEBUG] Validation started.
+04-01-2024 17:30:59.436 [Gauge] [DEBUG] Validation completed.
+04-01-2024 17:31:06.036 [Gauge] [DEBUG] Validation started.
+04-01-2024 17:31:06.060 [Gauge] [DEBUG] Validation completed.
+04-01-2024 17:32:06.761 [Gauge] [DEBUG] Validation started.
+04-01-2024 17:32:06.973 [Gauge] [DEBUG] Validation completed.
+04-01-2024 17:38:17.699 [Gauge] [DEBUG] Validation started.
+04-01-2024 17:38:18.259 [Gauge] [DEBUG] Validation completed.
+04-01-2024 19:13:36.397 [Gauge] [DEBUG] Validation started.
+04-01-2024 19:13:37.331 [Gauge] [DEBUG] Validation completed.
+04-01-2024 19:15:42.127 [Gauge] [DEBUG] Validation started.
+04-01-2024 19:15:47.862 [Gauge] [DEBUG] Validation completed.
+04-01-2024 19:16:13.908 [Gauge] [DEBUG] Validation started.
+04-01-2024 19:16:14.987 [Gauge] [DEBUG] Validation completed.
+04-01-2024 19:16:22.960 [Gauge] [DEBUG] Validation started.
+04-01-2024 19:16:22.975 [Gauge] [DEBUG] Validation completed.
+05-01-2024 10:56:26.331 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+05-01-2024 10:56:26.388 [Gauge] [INFO] Initializing specs cache with 2 specs
+05-01-2024 10:56:26.388 [Gauge] [DEBUG] Adding specs from /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+05-01-2024 10:56:26.388 [Gauge] [DEBUG] Adding specs from /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/example.spec
+05-01-2024 10:56:26.388 [Gauge] [INFO] Initializing steps cache with 2 steps
+05-01-2024 10:56:26.389 [Gauge] [INFO] Starting language runner
+05-01-2024 10:56:26.459 [Gauge] [DEBUG] Watching directory: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs
+05-01-2024 10:56:26.459 [Gauge] [DEBUG] Found 2 files
+05-01-2024 10:56:30.611 [dotnet] [INFO] MSBuild version 17.3.2+561848881 for .NET
+05-01-2024 10:56:56.416 [Gauge] [DEBUG] Gauge could not initialize. Install 'ms-dotnettools.csharp' extension for code insights. For more information see[Problems](command:workbench.actions.view.problems), check logs.[Troubleshooting](https://docs.gauge.org/troubleshooting.html?language=javascript&ide=vscode#gauge-could-not-initialize-for-more-information-see-problems)
+Some of the gauge lsp feature will not work as expected.
+05-01-2024 10:56:56.477 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+05-01-2024 10:57:00.363 [dotnet] [DEBUG] Loading assembly from : Gauge.Dotnet.AssemblyPath
+05-01-2024 10:57:00.669 [dotnet] [DEBUG] Using ExecutableRunnerServiceHandler
+05-01-2024 10:57:19.934 [Gauge] [ERROR] notif #0: initialized: current runner is not compatible with gauge LSP
+05-01-2024 13:49:40.909 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+05-01-2024 13:49:41.111 [Gauge] [INFO] Initializing specs cache with 2 specs
+05-01-2024 13:49:41.111 [Gauge] [DEBUG] Adding specs from /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+05-01-2024 13:49:41.111 [Gauge] [DEBUG] Adding specs from /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/example.spec
+05-01-2024 13:49:41.111 [Gauge] [INFO] Initializing steps cache with 2 steps
+05-01-2024 13:49:41.112 [Gauge] [DEBUG] Watching directory: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs
+05-01-2024 13:49:41.112 [Gauge] [DEBUG] Found 2 files
+05-01-2024 13:49:41.150 [Gauge] [INFO] Starting language runner
+05-01-2024 13:50:05.143 [dotnet] [INFO] MSBuild version 17.3.2+561848881 for .NET
+05-01-2024 13:50:11.344 [Gauge] [DEBUG] Gauge could not initialize. Install 'ms-dotnettools.csharp' extension for code insights. For more information see[Problems](command:workbench.actions.view.problems), check logs.[Troubleshooting](https://docs.gauge.org/troubleshooting.html?language=javascript&ide=vscode#gauge-could-not-initialize-for-more-information-see-problems)
+Some of the gauge lsp feature will not work as expected.
+05-01-2024 13:50:11.611 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+05-01-2024 13:50:12.311 [Gauge] [ERROR] notif #0: initialized: current runner is not compatible with gauge LSP
+05-01-2024 13:50:41.777 [dotnet] [DEBUG] Loading assembly from : Gauge.Dotnet.AssemblyPath
+05-01-2024 13:50:41.853 [dotnet] [DEBUG] Using ExecutableRunnerServiceHandler
+05-01-2024 14:05:12.624 [Gauge] [DEBUG] Spec file removed: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/example.spec
+05-01-2024 17:13:12.103 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+05-01-2024 17:13:12.214 [Gauge] [INFO] Initializing specs cache with 1 specs
+05-01-2024 17:13:12.214 [Gauge] [DEBUG] Adding specs from /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+05-01-2024 17:13:12.214 [Gauge] [INFO] Initializing steps cache with 1 steps
+05-01-2024 17:13:12.214 [Gauge] [DEBUG] Watching directory: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs
+05-01-2024 17:13:12.214 [Gauge] [DEBUG] Found 1 files
+05-01-2024 17:13:12.322 [Gauge] [INFO] Starting language runner
+05-01-2024 17:13:37.623 [dotnet] [INFO] MSBuild version 17.3.2+561848881 for .NET
+05-01-2024 17:13:42.533 [Gauge] [DEBUG] Gauge could not initialize. Install 'ms-dotnettools.csharp' extension for code insights. For more information see[Problems](command:workbench.actions.view.problems), check logs.[Troubleshooting](https://docs.gauge.org/troubleshooting.html?language=javascript&ide=vscode#gauge-could-not-initialize-for-more-information-see-problems)
+Some of the gauge lsp feature will not work as expected.
+05-01-2024 17:13:42.533 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+05-01-2024 17:13:42.661 [Gauge] [ERROR] notif #0: initialized: current runner is not compatible with gauge LSP
+05-01-2024 17:14:39.507 [dotnet] [INFO] /usr/share/dotnet/sdk/6.0.415/Sdks/Microsoft.NET.Sdk/targets/Microsoft.NET.Sdk.targets(181,5): error NETSDK1047: Assets file '/home/wandaanna/Downloads/Dockerising/WeatherAPITests/obj/project.assets.json' doesn't have a target for 'net6.0/linux-x64'. Ensure that restore has run and that you have included 'net6.0' in the TargetFrameworks for your project. You may also need to include 'linux-x64' in your project's RuntimeIdentifiers. [/home/wandaanna/Downloads/Dockerising/WeatherAPITests/netcore-template.csproj]
+05-01-2024 17:14:50.967 [dotnet] [DEBUG] Loading assembly from : Gauge.Dotnet.AssemblyPath
+05-01-2024 17:14:50.968 [dotnet] [DEBUG] Using AuthoringRunnerServiceHandler
+05-01-2024 18:20:26.842 [Gauge] [INFO] Connection closed
+05-01-2024 18:20:28.676 [Gauge] [ERROR] Unable to log error 'Connection closed' to LSP: jsonrpc2: connection is closed
+05-01-2024 18:36:12.311 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+05-01-2024 18:36:12.488 [Gauge] [INFO] Initializing specs cache with 1 specs
+05-01-2024 18:36:12.488 [Gauge] [DEBUG] Adding specs from /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+05-01-2024 18:36:12.489 [Gauge] [INFO] Initializing steps cache with 1 steps
+05-01-2024 18:36:12.489 [Gauge] [DEBUG] Watching directory: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs
+05-01-2024 18:36:12.490 [Gauge] [DEBUG] Found 1 files
+05-01-2024 18:36:12.507 [Gauge] [INFO] Starting language runner
+05-01-2024 18:36:29.579 [dotnet] [INFO] MSBuild version 17.3.2+561848881 for .NET
+05-01-2024 18:36:42.785 [Gauge] [DEBUG] Gauge could not initialize. Install 'ms-dotnettools.csharp' extension for code insights. For more information see[Problems](command:workbench.actions.view.problems), check logs.[Troubleshooting](https://docs.gauge.org/troubleshooting.html?language=javascript&ide=vscode#gauge-could-not-initialize-for-more-information-see-problems)
+Some of the gauge lsp feature will not work as expected.
+05-01-2024 18:36:42.785 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+05-01-2024 18:36:43.697 [Gauge] [ERROR] notif #0: initialized: current runner is not compatible with gauge LSP
+05-01-2024 18:38:26.626 [dotnet] [INFO] /usr/share/dotnet/sdk/6.0.415/Sdks/Microsoft.NET.Sdk/targets/Microsoft.NET.Sdk.targets(181,5): error NETSDK1047: Assets file '/home/wandaanna/Downloads/Dockerising/WeatherAPITests/obj/project.assets.json' doesn't have a target for 'net6.0/linux-x64'. Ensure that restore has run and that you have included 'net6.0' in the TargetFrameworks for your project. You may also need to include 'linux-x64' in your project's RuntimeIdentifiers. [/home/wandaanna/Downloads/Dockerising/WeatherAPITests/netcore-template.csproj]
+05-01-2024 18:39:01.412 [dotnet] [DEBUG] Loading assembly from : Gauge.Dotnet.AssemblyPath
+06-01-2024 09:47:53.038 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+06-01-2024 09:47:53.337 [Gauge] [INFO] Initializing specs cache with 1 specs
+06-01-2024 09:47:53.337 [Gauge] [DEBUG] Adding specs from /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs/WeatherAPI.spec
+06-01-2024 09:47:53.337 [Gauge] [INFO] Initializing steps cache with 1 steps
+06-01-2024 09:47:53.338 [Gauge] [DEBUG] Watching directory: /home/wandaanna/Downloads/Dockerising/WeatherAPITests/specs
+06-01-2024 09:47:53.338 [Gauge] [DEBUG] Found 1 files
+06-01-2024 09:47:53.446 [Gauge] [INFO] Starting language runner
+06-01-2024 09:48:08.995 [dotnet] [INFO] MSBuild version 17.3.2+561848881 for .NET
+06-01-2024 09:48:23.583 [Gauge] [DEBUG] Gauge could not initialize. Install 'ms-dotnettools.csharp' extension for code insights. For more information see[Problems](command:workbench.actions.view.problems), check logs.[Troubleshooting](https://docs.gauge.org/troubleshooting.html?language=javascript&ide=vscode#gauge-could-not-initialize-for-more-information-see-problems)
+Some of the gauge lsp feature will not work as expected.
+06-01-2024 09:48:23.684 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+06-01-2024 09:48:24.044 [Gauge] [ERROR] notif #0: initialized: current runner is not compatible with gauge LSP
+06-01-2024 09:48:37.820 [dotnet] [DEBUG] Loading assembly from : Gauge.Dotnet.AssemblyPath
+06-01-2024 09:48:37.852 [dotnet] [DEBUG] Using ExecutableRunnerServiceHandler

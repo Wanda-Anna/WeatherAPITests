@@ -1,0 +1,12 @@
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/bin/release/net6.0/linux-x64/netcore-template.deps.json
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/bin/release/net6.0/linux-x64/netcore-template.dll
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/bin/release/net6.0/linux-x64/netcore-template.pdb
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/obj/release/net6.0/linux-x64/netcore-template.csproj.AssemblyReference.cache
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/obj/release/net6.0/linux-x64/netcore-template.GeneratedMSBuildEditorConfig.editorconfig
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/obj/release/net6.0/linux-x64/netcore-template.AssemblyInfoInputs.cache
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/obj/release/net6.0/linux-x64/netcore-template.AssemblyInfo.cs
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/obj/release/net6.0/linux-x64/netcore-template.csproj.CoreCompileInputs.cache
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/obj/release/net6.0/linux-x64/netcore-template.dll
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/obj/release/net6.0/linux-x64/refint/netcore-template.dll
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/obj/release/net6.0/linux-x64/netcore-template.pdb
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/obj/release/net6.0/linux-x64/ref/netcore-template.dll

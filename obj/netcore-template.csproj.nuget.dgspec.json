@@ -1,0 +1,80 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/wandaanna/Downloads/Dockerising/WeatherAPITests/netcore-template.csproj": {}
+  },
+  "projects": {
+    "/home/wandaanna/Downloads/Dockerising/WeatherAPITests/netcore-template.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/wandaanna/Downloads/Dockerising/WeatherAPITests/netcore-template.csproj",
+        "projectName": "netcore-template",
+        "projectPath": "/home/wandaanna/Downloads/Dockerising/WeatherAPITests/netcore-template.csproj",
+        "packagesPath": "/home/wandaanna/.nuget/packages/",
+        "outputPath": "/home/wandaanna/Downloads/Dockerising/WeatherAPITests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/wandaanna/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.11.0, )"
+            },
+            "Gauge.CSharp.Lib": {
+              "target": "Package",
+              "version": "[0.9.0, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[110.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.415/RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

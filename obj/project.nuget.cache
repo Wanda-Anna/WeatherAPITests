@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "NfNAtewMbYX3JXb2aqBS0i0sP3k3AtKzZYUIDAuXhZwp/ksNWrqDY5oUzovI6qDfT+d+aiLKav2sGDnHOSwa3A==",
+  "success": true,
+  "projectFilePath": "/home/wandaanna/Downloads/Dockerising/WeatherAPITests/netcore-template.csproj",
+  "expectedPackageFiles": [
+    "/home/wandaanna/.nuget/packages/fluentassertions/6.11.0/fluentassertions.6.11.0.nupkg.sha512",
+    "/home/wandaanna/.nuget/packages/gauge.csharp.lib/0.9.0/gauge.csharp.lib.0.9.0.nupkg.sha512",
+    "/home/wandaanna/.nuget/packages/restsharp/110.2.0/restsharp.110.2.0.nupkg.sha512",
+    "/home/wandaanna/.nuget/packages/system.configuration.configurationmanager/4.4.0/system.configuration.configurationmanager.4.4.0.nupkg.sha512",
+    "/home/wandaanna/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "/home/wandaanna/.nuget/packages/system.security.cryptography.protecteddata/4.4.0/system.security.cryptography.protecteddata.4.4.0.nupkg.sha512",
+    "/home/wandaanna/.nuget/packages/system.text.encodings.web/7.0.0/system.text.encodings.web.7.0.0.nupkg.sha512",
+    "/home/wandaanna/.nuget/packages/system.text.json/7.0.2/system.text.json.7.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

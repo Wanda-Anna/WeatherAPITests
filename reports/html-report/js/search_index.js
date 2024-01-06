@@ -1,0 +1,1 @@
+var index = {"Tags":{},"Specs":{"Calling the meteo weather api":["specs/WeatherAPI.html"]}};

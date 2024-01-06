@@ -1,0 +1,10 @@
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/gauge_bin/netcore-template.dll
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/gauge_bin/netcore-template.deps.json
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/gauge_bin/netcore-template.pdb
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/gauge_bin/FluentAssertions.dll
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/gauge_bin/Gauge.CSharp.Lib.dll
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/gauge_bin/RestSharp.dll
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/gauge_bin/System.Configuration.ConfigurationManager.dll
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/gauge_bin/System.Security.Cryptography.ProtectedData.dll
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/gauge_bin/System.Text.Encodings.Web.dll
+/home/wandaanna/Downloads/Dockerising/WeatherAPITests/gauge_bin/System.Text.Json.dll
